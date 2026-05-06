@@ -1,0 +1,40 @@
+; --------------------------------------------------------------------------------
+; @Title: ICT2110 Ramdump Script
+; @Description:
+; ICT2110 TRACE32 ½Å±¾
+; @Copyright: (C) 2022 Innochip-Tech.
+; --------------------------------------------------------------------------------
+
+IF sYmbol.EXIST(g_osApSystemMem)
+(
+    PRINT "=========================================== AP System Mem ========================================="
+    do print_dlmalloc_heap.cmm &g_osApSystemMem
+    PRINT ""
+    PRINT ""
+)
+
+IF sYmbol.EXIST(g_osApShareBuf)
+(
+    PRINT "=========================================== Ap Share Buf =========================================="
+    do print_dlmalloc_heap.cmm &g_osApShareBuf
+    PRINT ""
+    PRINT ""
+)
+
+IF sYmbol.EXIST(g_osApUpNode)
+(
+    PRINT "=========================================== AP Up Node ============================================"
+    do print_smallheap.cmm &g_osApUpNode
+    PRINT ""
+    PRINT ""
+)
+
+IF sYmbol.EXIST(g_osApModemShareBufPtr)
+(
+    PRINT "========================================= Ap Modem Share Buf ======================================"
+    do print_smallheap.cmm g_osApModemShareBufPtr
+    PRINT ""
+    PRINT ""
+)
+
+ENDDO

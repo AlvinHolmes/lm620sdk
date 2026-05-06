@@ -1,0 +1,20 @@
+import os
+Import('OS_ROOT')
+from build_tools import *
+
+
+defines = []
+path = []
+src  = []
+pwd  = PresentDir()
+
+path += [pwd + '/inc']
+src += Glob('src/*.c')
+defines += ['LIBRWS_USING_MBED_TLS']
+
+if IsDefined('LIBRWS_USING_EXAMPLE'):
+    src += Glob('examples/*.c')
+
+group = AddCodeGroup('librws', src, depend = [], CPPPATH = path, CPPDEFINES = defines, LIBRARY="rws")
+
+Return('group')

@@ -1,0 +1,63 @@
+; --------------------------------------------------------------------------------
+; @Title: ICT2110 Ramdump Script
+; @Description:
+; ICT2110 TRACE32 ½Å±¾
+; @Copyright: (C) 2022 Innochip-Tech.
+; --------------------------------------------------------------------------------
+
+IF !sYmbol.EXIST(g_osThreadList)
+(
+  PRINT "<no symbol>"
+  ENDDO
+)
+
+&osObject_Class_MailBox=5
+&osObject_Class_Static=0x80
+
+&thread_head=Var.Value((void*)&g_osThreadList)
+&thread_next=Var.Value((void*)g_osThreadList.next)
+&thread_offset=Var.Value(&((osThread_t)0x0)->resource_node)
+
+PRINT "============================================================================================="
+PRINT "Name                   capacity       count          write_index      read_index     osMb_t  "
+PRINT "---------------------------------------------------------------------------------------------"
+
+WHILE &thread_head!=&thread_next
+(
+  &thread_struct=&thread_next-&thread_offset
+  
+  &mbox_flag=0
+  &user_area=Var.Value(((osThread_t)&thread_struct)->userData)
+  GOSUB is_mbox_object &user_area
+  ENTRY &mbox_flag
+  
+  IF &mbox_flag!=0
+  (
+    &capacity=Var.Value(((osMb_t)&user_area)->size)
+    &count=Var.Value(((osMb_t)&user_area)->entry)   
+    &write_index=Var.Value(((osMb_t)&user_area)->in_offset)
+    &read_index=Var.Value(((osMb_t)&user_area)->out_offset) 
+    PRINTF "%16s     %8i        %8i        %8i        %8i      0x%08x"  Var.String(((osThread_t)&thread_struct)->name) &capacity &count &write_index  &read_index  &user_area
+  )
+  
+  &thread_next=Var.Value((void*)((osThread_t)&thread_struct)->resource_node.next)
+)
+
+
+ENDDO
+
+is_mbox_object:
+  ENTRY &addr
+  LOCAL &ret
+  
+  &ret=0
+  IF &addr!=0
+  (
+    &obj_type=Data.Byte(D:&addr)
+    &obj_type=&obj_type&(~(&osObject_Class_Static))
+    IF &obj_type==&osObject_Class_MailBox
+    (
+        &ret=1
+    )  
+  )
+  RETURN &ret

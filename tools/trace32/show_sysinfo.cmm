@@ -1,0 +1,21 @@
+; --------------------------------------------------------------------------------
+; @Title: ICT2110 Ramdump Script
+; @Description:
+; ICT2110 TRACE32 脚本
+; @Copyright: (C) 2022 Innochip-Tech genanfeng.
+; --------------------------------------------------------------------------------
+
+
+LOCAL &info
+
+IF !sYmbol.EXIST(g_osCurrentThread)
+(
+  PRINT "<no symbol>"
+  ENDDO
+)
+
+&thread_name=Var.String(g_osCurrentThread->name)
+&irq_nest=Var.Value(g_osInterruptNest)
+&info="THREAD["+"&thread_name"+"]"+"  IRQNEST["+"&irq_nest"+"]"
+
+ENDDO "&info"

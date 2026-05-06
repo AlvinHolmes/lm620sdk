@@ -1,0 +1,137 @@
+{
+    "NV_DrvConfig": {
+        "NV_DrvConfig": {
+            "exceptReset": {
+                "kind": "BaseType",
+                "type": "unsigned char",
+                "value": 0,
+                "offset": 0,
+                "FLAG": true
+            },
+            "watchDog": {
+                "kind": "BaseType",
+                "type": "unsigned char",
+                "value": 0,
+                "offset": 2,
+                "FLAG": true
+            },
+            "uiccHotPlug": {
+                "kind": "BaseType",
+                "type": "unsigned char",
+                "value": 1,
+                "offset": 3,
+                "FLAG": true
+            }
+        }
+    },
+    "NV_MuxPortCfg": {
+        "NV_MuxPortCfg": {
+            "portSet": {
+                "FLAG": true,
+                "value": 0
+            }
+        }
+    },
+    "NV_PsmConfig": {
+        "NV_PsmConfig": {
+            "sbyThreholdTime": {
+                "FLAG": true,
+                "value": 1
+            }
+        }
+    },
+    "S_Ps_Dev_NV_PsData": {
+        "S_Ps_Dev_NV_PsData": {
+            "tUserSetInfo": {
+                "tNvPsmInfo": {
+                    "tNvT3324": {
+                        "bMode": {
+                            "FLAG": true,
+                            "value": 3
+                        },
+                        "bTmrVal": {
+                            "FLAG": true,
+                            "value": 0
+                        },
+                        "bUnit": {
+                            "FLAG": true,
+                            "value": 1
+                        }
+                    }
+                }
+            }
+        }
+    },
+	"T_PS_P_ATNV": {
+        "T_PS_P_ATNV": {
+            "tAtNvCom": {
+                "wApcOffset[16]": {
+                    "wApcOffset[0]": {
+                        "FLAG": true,
+                        "value": 252
+                    },
+                    "wApcOffset[10]": {
+                        "FLAG": true,
+                        "value": 0
+                    },
+                    "wApcOffset[11]": {
+                        "FLAG": true,
+                        "value": 0
+                    },
+                    "wApcOffset[12]": {
+                        "FLAG": true,
+                        "value": 0
+                    },
+                    "wApcOffset[13]": {
+                        "FLAG": true,
+                        "value": 0
+                    },
+                    "wApcOffset[14]": {
+                        "FLAG": true,
+                        "value": 0
+                    },
+                    "wApcOffset[15]": {
+                        "FLAG": true,
+                        "value": 0
+                    },
+                    "wApcOffset[1]": {
+                        "FLAG": true,
+                        "value": 252
+                    },
+                    "wApcOffset[2]": {
+                        "FLAG": true,
+                        "value": 252
+                    },
+                    "wApcOffset[3]": {
+                        "FLAG": true,
+                        "value": 252
+                    },
+                    "wApcOffset[4]": {
+                        "FLAG": true,
+                        "value": 252
+                    },
+                    "wApcOffset[5]": {
+                        "FLAG": true,
+                        "value": 252
+                    },
+                    "wApcOffset[6]": {
+                        "FLAG": true,
+                        "value": 252
+                    },
+                    "wApcOffset[7]": {
+                        "FLAG": true,
+                        "value": 252
+                    },
+                    "wApcOffset[8]": {
+                        "FLAG": true,
+                        "value": 252
+                    },
+                    "wApcOffset[9]": {
+                        "FLAG": true,
+                        "value": 0
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+; --------------------------------------------------------------------------------
+; @Title: ICT2110 Ramdump Script
+; @Description:
+; ICT2110 TRACE32 脚本
+; @Copyright: (C) 2022 Innochip-Tech.
+; --------------------------------------------------------------------------------
+
+ENTRY &ramdump_path &elf_file
+
+RESet
+SYStem.RESet
+SYStem.CPU RV32
+SYStem.Up
+
+LOCAL &cpu_name
+&cpu_name=STRing.SPLIT("&elf_file","\",-1)
+IF "&cpu_name"=="cpu-ap.elf"
+ &cpu_name="ap"
+IF "&cpu_name"=="cpu-cp.elf"
+ &cpu_name="cp"
+
+&ilm="&ramdump_path"+"\"+"&cpu_name"+"_ilm.bin"
+&dlm="&ramdump_path"+"\"+"&cpu_name"+"_dlm.bin"
+
+LOCAL &pattern
+&pattern="&ramdump_path"+"\"+"0x????????.xip"
+&xip=OS.FIRSTFILE("&pattern")
+IF "&xip"!=""
+(
+    LOCAL &addr
+    &addr=OS.FILE.BASENAME("&xip", ".xip")
+    &xip="&ramdump_path"+"\"+"&xip"
+    Data.LOAD.Binary   &xip  &addr
+)
+     
+Data.LOAD.Binary   &ramdump_path\"IRAM.bin"     0x10200000
+Data.LOAD.Binary   &ramdump_path\"IRAM.bin"     0xC0200000
+Data.LOAD.Binary   &ramdump_path\"PSRAM.bin"    0x40000000
+Data.LOAD.Binary   &ramdump_path\"PSRAM.bin"    0x80000000
+Data.LOAD.Binary   &ilm                         0x00008000
+Data.LOAD.Binary   &dlm                         0x00010000
+
+Data.LOAD.Elf      &elf_file  /NoCODE /RelPath
+
+Register.Set PRV 0x3
+
+&frame=Var.Value(exc_trace)
+do frame.cmm  &frame
+
+Print "Restore RISC-V Ramdump Files!!"
+
+ENDDO

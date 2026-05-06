@@ -1,0 +1,121 @@
+; --------------------------------------------------------------------------------
+; @Title: ICT2110 Ramdump Script
+; @Description:
+; ICT2110 TRACE32 ½Å±¾
+; @Copyright: (C) 2022 Innochip-Tech genanfeng.
+; --------------------------------------------------------------------------------
+
+IF !sYmbol.EXIST(g_osThreadList)
+(
+  PRINT "<no symbol>"
+  ENDDO
+)
+
+&OS_THREAD_INIT=0
+&OS_THREAD_READY=1
+&OS_THREAD_SUSPEND=2
+&OS_THREAD_RUNNING=3
+&OS_THREAD_BLOCK=&OS_THREAD_SUSPEND
+&OS_THREAD_CLOSE=4
+&OS_THREAD_STAT_MASK=0x0f
+
+&osObject_Class_MailBox=5
+&osObject_Class_Static=0x80
+
+&thread_head=Var.Value((void*)&g_osThreadList)
+&thread_next=Var.Value((void*)g_osThreadList.next)
+&thread_offset=Var.Value(&((osThread_t)0x0)->resource_node)
+
+PRINT "==================================================================================================="
+PRINT "Name                Pri    State      maxStack     rmanTick   osThread_t    MsgCount    MaxMsgCount"
+PRINT "---------------------------------------------------------------------------------------------------"
+
+WHILE &thread_head!=&thread_next
+(
+  &thread_struct=&thread_next-&thread_offset
+  &thread_state=Var.Value(((osThread_t)&thread_struct)->stat)&(&OS_THREAD_STAT_MASK)
+  IF (&thread_struct==Var.Value((void*)g_osCurrentThread))
+    &thread_state=&OS_THREAD_RUNNING
+    
+  GOSUB thread_state_string &thread_state
+  ENTRY &state
+  
+  &stack_begin=Var.Value(((osThread_t)&thread_struct)->stackAddr)
+  &stack_size=Var.Value(((osThread_t)&thread_struct)->stackSize)
+  &stack_max=0
+  GOSUB stack_used &stack_begin &stack_size
+  ENTRY &stack_max
+    
+  &stack_percent=((&stack_max)*100.)/(&stack_size)
+
+  &mbox_flag=0
+  &user_area=Var.Value(((osThread_t)&thread_struct)->userData)
+  GOSUB is_mbox_object &user_area
+  ENTRY &mbox_flag
+  
+  IF &mbox_flag!=0
+  (
+    &msgcount=Var.Value(((osMb_t)&user_area)->entry)
+	&max_msgcount=Var.Value(((osMb_t)&user_area)->max_entry)
+    PRINTF "%16s %5i     %-9s   %4i%%         %3i      0x%08x     %4i     %4i"  Var.String(((osThread_t)&thread_struct)->name)  Var.Value(((osThread_t)&thread_struct)->currentPriority)  "&state"  &stack_percent  Var.Value(((osThread_t)&thread_struct)->remainingTick)  &thread_struct &msgcount &max_msgcount
+  )
+  ELSE
+  (
+    PRINTF "%16s %5i     %-9s   %4i%%         %3i      0x%08x       N/A       N/A"  Var.String(((osThread_t)&thread_struct)->name)  Var.Value(((osThread_t)&thread_struct)->currentPriority)  "&state"  &stack_percent  Var.Value(((osThread_t)&thread_struct)->remainingTick)  &thread_struct
+  )
+  &thread_next=Var.Value((void*)((osThread_t)&thread_struct)->resource_node.next)
+)
+
+
+ENDDO
+
+
+thread_state_string:
+ ENTRY &stat
+ LOCAL &str
+ &str="error"
+ IF &stat==&OS_THREAD_INIT
+   &str="Init"
+ IF &stat==&OS_THREAD_READY
+   &str="Ready"
+ IF &stat==&OS_THREAD_SUSPEND
+   &str="Suspend"
+ IF &stat==&OS_THREAD_RUNNING
+   &str="Running"
+ IF &stat==&OS_THREAD_CLOSE
+   &str="Close"
+ RETURN &str
+ 
+stack_used:
+  ENTRY &begin &size
+  LOCAL &end
+  
+  &end=&begin+&size
+  WHILE &begin<&end
+  (
+    &stack_def=Data.Byte(D:&begin)
+    IF (&stack_def!=0x23)
+    (
+      &size=&end-&begin
+      &begin=&end
+      BREAK
+    )
+    &begin=&begin+1
+  )
+  RETURN &size
+
+is_mbox_object:
+  ENTRY &addr
+  LOCAL &ret
+  
+  &ret=0
+  IF &addr!=0
+  (
+    &obj_type=Data.Byte(D:&addr)
+    &obj_type=&obj_type&(~(&osObject_Class_Static))
+    IF &obj_type==&osObject_Class_MailBox
+    (
+        &ret=1
+    )  
+  )
+  RETURN &ret

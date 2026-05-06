@@ -1,0 +1,120 @@
+; --------------------------------------------------------------------------------
+; @Title: ICT2110 Ramdump Script
+; @Description:
+; ICT2110 TRACE32 ½Å±¾
+; @Copyright: (C) 2022 Innochip-Tech.
+; --------------------------------------------------------------------------------
+
+ENTRY &memheap
+
+LOCAL &num &i &size_sz &b &p &q &p_size &top &q_next &trace &sizeofchunk &total &max_used &used &top_size &max_chunk &user_used &avail &navail
+
+&num=Var.Value(((osDlmalloc_t *)&memheap)->num)
+&size_sz=0x4
+&sizeofchunk=0x10
+&top=Var.Value(((mbinptr)((char *)(&(av_[&num][2])) - 2 * &size_sz))->fd)
+;PRINTF "top:0x%08X" &top
+&i=0x1
+&user_used=0
+
+
+;ENDDO
+
+&top_size=Var.Value(((mbinptr)&top)->size&(~0x1))
+&avail=&top_size
+&max_chunk=&top_size
+IF &avail>=&sizeofchunk
+(
+	&navail=1
+)
+ELSE
+(
+	&navail=0
+)
+
+IF sYmbol.EXIST(osMallocTrace)	
+(
+	PRINT "==================== Mem Leak Info ===================="
+	PRINT "file(.c)          line        size        user        addr"
+)
+
+WHILE &i<0x80
+(
+	;PRINTF "%06d" &i
+	&b=Var.Value((char *)(&(av_[&num][2 * (&i) + 2])) - 2 * &size_sz)
+	;PRINTF "0x%08X" &b
+	&p=Var.Value(((mbinptr)&b)->bk)
+	;PRINTF "0x%08X" &p
+
+	WHILE &p!=&b
+	(
+		&p_size=Var.Value(((mchunkptr)&p)->size)&(~0x1)
+		
+		&q=Var.Value(&p+&p_size)
+		
+		IF sYmbol.EXIST(osMallocTrace)
+		(
+			WHILE &q<&top
+			(
+				LOCAL &file &line &size &user
+				
+				&size=Var.Value(((mchunkptr)&q)->size)&(~0x1)
+				&q_next=Var.Value(&q+&size)
+				IF ((Var.Value(((mchunkptr)&q_next)->size)&0x1)!=0x1)
+				(
+					&q=&top
+				)
+				IF (&size<&sizeofchunk)
+				(
+					&q=&top
+				)
+
+				IF (&q<&top)
+				(
+					&trace=Var.Value(&q+2*&size_sz)
+				
+					&file=Var.STRing(((osMemTrace_t*)&trace)->file)
+					&line=Var.Value(((osMemTrace_t*)&trace)->line)
+					&size=Var.Value(((osMemTrace_t*)&trace)->size)
+					IF (Var.Value(((osMemTrace_t*)&trace)->user)>0xFF)
+					(
+						&user=Var.STRing((char *)((osMemTrace_t*)&trace)->user)
+						PRINTF "%-16s  %-10lu  %-10hu  %-10s  0x%-10x" "&file" &line &size "&user" &q
+					)
+					ELSE
+					(
+						IF (Var.Value(((osMemTrace_t*)&trace)->user)==0)
+						(
+							&user="No Name"
+							PRINTF "%-16s  %-10lu  %-10hu  %-10s  0x%-10x" "&file" &line &size "&user" &q
+						)
+						ELSE
+						(
+							PRINTF "%-16s  %-10lu  %-10hu  irq%-7lu  0x%-10x" "&file" &line &size Var.Value(((osMemTrace_t*)&trace)->user) &q
+						)
+					)
+					&user_used=&user_used+&size+0x10+2  ;SIZE_TO_TRACE_SIZE(size)
+					&q=&q_next
+				)
+			)
+		)
+		IF &max_chunk<&p_size
+		(
+			&max_chunk = &p_size
+		)
+		&avail=&avail+&p_size
+		&navail=&navail+1
+		&p=Var.Value(((mchunkptr)&p)->bk)
+	)
+
+	&i=&i+1
+)
+&total=Var.Value(((osDlmalloc_t *)&memheap)->total)
+&max_used=Var.Value(((osDlmalloc_t *)&memheap)->max_used)
+&used=&total-&avail
+
+PRINTF "=================== Mem Summary Info =================="
+PRINTF "total: %d, max Used : %d, used: %d, user used: %d, top: %d, max chunk: %d, free chunks: %d" &total &max_used &used &user_used &top_size &max_chunk &navail
+PRINTF "max used rate: %d%%, used rate: %d%%, user used rate: %d%%", &max_used*0x64/&total, &used*0x64/&total, &user_used*0x64/&total
+
+ENDDO

@@ -1,0 +1,57 @@
+; --------------------------------------------------------------------------------
+; @Title: ICT2110 Ramdump Script
+; @Description:
+; ICT2110 TRACE32 脚本
+; @Copyright: (C) 2022 Innochip-Tech.
+; --------------------------------------------------------------------------------
+
+ENTRY &cpu_frame
+
+IF !sYmbol.EXIST(g_osThreadList)
+(
+  PRINT "<no symbol>"
+  ENDDO
+)
+
+IF (&cpu_frame==0)
+(
+  PRINT "<invalid addr>"
+  ENDDO
+)
+
+&sp=&cpu_frame+Var.Value(sizeof(struct rt_hw_stack_frame))
+
+Register.Set PC Var.Value(((struct rt_hw_stack_frame*)&cpu_frame)->epc)
+Register.Set X1 Var.Value(((struct rt_hw_stack_frame*)&cpu_frame)->ra)
+Register.Set X2 &sp
+Register.Set X3 Var.Value(((struct rt_hw_stack_frame*)&cpu_frame)->gp)
+Register.Set X4 Var.Value(((struct rt_hw_stack_frame*)&cpu_frame)->tp)
+Register.Set X5 Var.Value(((struct rt_hw_stack_frame*)&cpu_frame)->t0)
+Register.Set X6 Var.Value(((struct rt_hw_stack_frame*)&cpu_frame)->t1)
+Register.Set X7 Var.Value(((struct rt_hw_stack_frame*)&cpu_frame)->t2)
+Register.Set X8 Var.Value(((struct rt_hw_stack_frame*)&cpu_frame)->s0_fp)
+Register.Set X9 Var.Value(((struct rt_hw_stack_frame*)&cpu_frame)->s1)
+Register.Set X10 Var.Value(((struct rt_hw_stack_frame*)&cpu_frame)->a0)
+Register.Set X11 Var.Value(((struct rt_hw_stack_frame*)&cpu_frame)->a1)
+Register.Set X12 Var.Value(((struct rt_hw_stack_frame*)&cpu_frame)->a2)
+Register.Set X13 Var.Value(((struct rt_hw_stack_frame*)&cpu_frame)->a3)
+Register.Set X14 Var.Value(((struct rt_hw_stack_frame*)&cpu_frame)->a4)
+Register.Set X15 Var.Value(((struct rt_hw_stack_frame*)&cpu_frame)->a5)
+Register.Set X16 Var.Value(((struct rt_hw_stack_frame*)&cpu_frame)->a6)
+Register.Set X17 Var.Value(((struct rt_hw_stack_frame*)&cpu_frame)->a7)
+Register.Set X18 Var.Value(((struct rt_hw_stack_frame*)&cpu_frame)->s2)
+Register.Set X19 Var.Value(((struct rt_hw_stack_frame*)&cpu_frame)->s3)
+Register.Set X20 Var.Value(((struct rt_hw_stack_frame*)&cpu_frame)->s4)
+Register.Set X21 Var.Value(((struct rt_hw_stack_frame*)&cpu_frame)->s5)
+Register.Set X22 Var.Value(((struct rt_hw_stack_frame*)&cpu_frame)->s6)
+Register.Set X23 Var.Value(((struct rt_hw_stack_frame*)&cpu_frame)->s7)
+Register.Set X24 Var.Value(((struct rt_hw_stack_frame*)&cpu_frame)->s8)
+Register.Set X25 Var.Value(((struct rt_hw_stack_frame*)&cpu_frame)->s9)
+Register.Set X26 Var.Value(((struct rt_hw_stack_frame*)&cpu_frame)->s10)
+Register.Set X27 Var.Value(((struct rt_hw_stack_frame*)&cpu_frame)->s11)
+Register.Set X28 Var.Value(((struct rt_hw_stack_frame*)&cpu_frame)->t3)
+Register.Set X29 Var.Value(((struct rt_hw_stack_frame*)&cpu_frame)->t4)
+Register.Set X30 Var.Value(((struct rt_hw_stack_frame*)&cpu_frame)->t5)
+Register.Set X31 Var.Value(((struct rt_hw_stack_frame*)&cpu_frame)->t6)
+
+ENDDO

@@ -1,0 +1,785 @@
+{
+    ["at http"] = {
+        __sourceinfo_default = { },
+        category = "at command",
+        __scriptdir = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/open/appstart",
+        description = {
+            "Enable HTTP at command",
+            "  =y|n"
+        },
+        __sourceinfo_category = {
+            ["at command"] = {
+                line = 30,
+                file = "./open/appstart/xmake.lua"
+            }
+        },
+        showmenu = true,
+        default = false,
+        __sourceinfo_showmenu = { },
+        __sourceinfo_description = {
+            ["  =y|n"] = {
+                line = 31,
+                file = "./open/appstart/xmake.lua"
+            },
+            ["Enable HTTP at command"] = {
+                line = 31,
+                file = "./open/appstart/xmake.lua"
+            }
+        }
+    },
+    sntp = {
+        __sourceinfo_default = { },
+        category = "interface",
+        __scriptdir = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/vendor/interface",
+        description = {
+            "Enable uart",
+            "  =y|n"
+        },
+        __sourceinfo_category = {
+            interface = {
+                line = 33,
+                file = "./vendor/interface/xmake.lua"
+            }
+        },
+        showmenu = true,
+        default = false,
+        __sourceinfo_showmenu = { },
+        __sourceinfo_description = {
+            ["Enable uart"] = {
+                line = 34,
+                file = "./vendor/interface/xmake.lua"
+            },
+            ["  =y|n"] = {
+                line = 34,
+                file = "./vendor/interface/xmake.lua"
+            }
+        }
+    },
+    sdkver = {
+        __sourceinfo_default = {
+            mdl = {
+                line = 17,
+                file = "./scripts/top_option.lua"
+            }
+        },
+        category = "top",
+        __scriptdir = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/scripts",
+        default = "mdl",
+        __sourceinfo_category = {
+            top = {
+                line = 19,
+                file = "./scripts/top_option.lua"
+            }
+        },
+        values = {
+            "mdl",
+            "volte"
+        },
+        __sourceinfo_description = {
+            ["Select sdk lib version"] = {
+                line = 20,
+                file = "./scripts/top_option.lua"
+            }
+        },
+        showmenu = true,
+        description = "Select sdk lib version",
+        __sourceinfo_values = {
+            mdl = {
+                line = 22,
+                file = "./scripts/top_option.lua"
+            },
+            volte = {
+                line = 22,
+                file = "./scripts/top_option.lua"
+            }
+        },
+        __sourceinfo_showmenu = { }
+    },
+    codec_es8311 = {
+        __sourceinfo_default = { },
+        category = "drivers",
+        __scriptdir = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/components/audio",
+        description = {
+            "Enable or disable es8311 codec function",
+            "  =y|n"
+        },
+        __sourceinfo_category = {
+            drivers = {
+                line = 45,
+                file = "./components/audio/xmake.lua"
+            }
+        },
+        showmenu = true,
+        default = false,
+        __sourceinfo_showmenu = { },
+        __sourceinfo_description = {
+            ["  =y|n"] = {
+                line = 46,
+                file = "./components/audio/xmake.lua"
+            },
+            ["Enable or disable es8311 codec function"] = {
+                line = 46,
+                file = "./components/audio/xmake.lua"
+            }
+        }
+    },
+    asic = {
+        __sourceinfo_default = { },
+        category = "top",
+        __scriptdir = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/scripts",
+        description = {
+            "Enable or disable asic function macro",
+            "  =y|n"
+        },
+        __sourceinfo_category = {
+            top = {
+                line = 32,
+                file = "./scripts/top_option.lua"
+            }
+        },
+        showmenu = true,
+        default = true,
+        __sourceinfo_showmenu = { },
+        __sourceinfo_description = {
+            ["  =y|n"] = {
+                line = 33,
+                file = "./scripts/top_option.lua"
+            },
+            ["Enable or disable asic function macro"] = {
+                line = 33,
+                file = "./scripts/top_option.lua"
+            }
+        }
+    },
+    audio = {
+        __sourceinfo_default = { },
+        category = "audio",
+        __scriptdir = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/components/audio",
+        description = {
+            "Enable or disable middleware audio function",
+            "  =y|n"
+        },
+        __sourceinfo_category = {
+            audio = {
+                line = 29,
+                file = "./components/audio/xmake.lua"
+            }
+        },
+        showmenu = true,
+        default = false,
+        __sourceinfo_showmenu = { },
+        __sourceinfo_description = {
+            ["Enable or disable middleware audio function"] = {
+                line = 30,
+                file = "./components/audio/xmake.lua"
+            },
+            ["  =y|n"] = {
+                line = 30,
+                file = "./components/audio/xmake.lua"
+            }
+        }
+    },
+    ftp = {
+        __sourceinfo_default = { },
+        category = "middleware",
+        __scriptdir = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/components/net/protocols/ftp",
+        description = {
+            "Enable ftp library",
+            "  =y|n"
+        },
+        __sourceinfo_category = {
+            middleware = {
+                line = 32,
+                file = "./components/net/protocols/ftp/xmake.lua"
+            }
+        },
+        showmenu = true,
+        default = true,
+        __sourceinfo_showmenu = { },
+        __sourceinfo_description = {
+            ["  =y|n"] = {
+                line = 33,
+                file = "./components/net/protocols/ftp/xmake.lua"
+            },
+            ["Enable ftp library"] = {
+                line = 33,
+                file = "./components/net/protocols/ftp/xmake.lua"
+            }
+        }
+    },
+    http = {
+        __sourceinfo_default = { },
+        category = "middleware",
+        __scriptdir = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/components/net/protocols/http",
+        description = {
+            "Enable Paho http",
+            "  =y|n"
+        },
+        __sourceinfo_category = {
+            middleware = {
+                line = 32,
+                file = "./components/net/protocols/http/xmake.lua"
+            }
+        },
+        showmenu = true,
+        default = true,
+        __sourceinfo_showmenu = { },
+        __sourceinfo_description = {
+            ["  =y|n"] = {
+                line = 33,
+                file = "./components/net/protocols/http/xmake.lua"
+            },
+            ["Enable Paho http"] = {
+                line = 33,
+                file = "./components/net/protocols/http/xmake.lua"
+            }
+        }
+    },
+    websocket = {
+        __sourceinfo_default = { },
+        category = "middleware",
+        __scriptdir = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/components/net/protocols/websocket",
+        description = {
+            "Enable librws webwocket",
+            "  =y|n"
+        },
+        __sourceinfo_category = {
+            middleware = {
+                line = 31,
+                file = "./components/net/protocols/websocket/xmake.lua"
+            }
+        },
+        showmenu = true,
+        default = true,
+        __sourceinfo_showmenu = { },
+        __sourceinfo_description = {
+            ["Enable librws webwocket"] = {
+                line = 32,
+                file = "./components/net/protocols/websocket/xmake.lua"
+            },
+            ["  =y|n"] = {
+                line = 32,
+                file = "./components/net/protocols/websocket/xmake.lua"
+            }
+        }
+    },
+    ["at mqtt"] = {
+        __sourceinfo_default = { },
+        category = "at command",
+        __scriptdir = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/open/appstart",
+        description = {
+            "Enable MQTT at command",
+            "  =y|n"
+        },
+        __sourceinfo_category = {
+            ["at command"] = {
+                line = 23,
+                file = "./open/appstart/xmake.lua"
+            }
+        },
+        showmenu = true,
+        default = false,
+        __sourceinfo_showmenu = { },
+        __sourceinfo_description = {
+            ["Enable MQTT at command"] = {
+                line = 24,
+                file = "./open/appstart/xmake.lua"
+            },
+            ["  =y|n"] = {
+                line = 24,
+                file = "./open/appstart/xmake.lua"
+            }
+        }
+    },
+    fota = {
+        __sourceinfo_default = { },
+        category = "interface",
+        __scriptdir = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/vendor/interface",
+        description = {
+            "Enable uart",
+            "  =y|n"
+        },
+        __sourceinfo_category = {
+            interface = {
+                line = 25,
+                file = "./vendor/interface/xmake.lua"
+            }
+        },
+        showmenu = true,
+        default = false,
+        __sourceinfo_showmenu = { },
+        __sourceinfo_description = {
+            ["Enable uart"] = {
+                line = 26,
+                file = "./vendor/interface/xmake.lua"
+            },
+            ["  =y|n"] = {
+                line = 26,
+                file = "./vendor/interface/xmake.lua"
+            }
+        }
+    },
+    ["app bip"] = {
+        __sourceinfo_default = { },
+        category = "app",
+        __scriptdir = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/open/appstart",
+        description = {
+            "Enable app bip",
+            "  =y|n"
+        },
+        __sourceinfo_category = {
+            app = {
+                line = 58,
+                file = "./open/appstart/xmake.lua"
+            }
+        },
+        showmenu = true,
+        default = false,
+        __sourceinfo_showmenu = { },
+        __sourceinfo_description = {
+            ["  =y|n"] = {
+                line = 59,
+                file = "./open/appstart/xmake.lua"
+            },
+            ["Enable app bip"] = {
+                line = 59,
+                file = "./open/appstart/xmake.lua"
+            }
+        }
+    },
+    http_test = {
+        __sourceinfo_default = { },
+        category = "middleware",
+        __scriptdir = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/components/net/protocols/http",
+        description = {
+            "Enable Paho http Test",
+            "  =y|n"
+        },
+        __sourceinfo_category = {
+            middleware = {
+                line = 40,
+                file = "./components/net/protocols/http/xmake.lua"
+            }
+        },
+        showmenu = true,
+        default = false,
+        __sourceinfo_showmenu = { },
+        __sourceinfo_description = {
+            ["  =y|n"] = {
+                line = 41,
+                file = "./components/net/protocols/http/xmake.lua"
+            },
+            ["Enable Paho http Test"] = {
+                line = 41,
+                file = "./components/net/protocols/http/xmake.lua"
+            }
+        }
+    },
+    board = {
+        __sourceinfo_default = {
+            evb = {
+                line = 16,
+                file = "./board/xmake.lua"
+            }
+        },
+        category = "board",
+        __scriptdir = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/board",
+        default = "evb",
+        __sourceinfo_category = {
+            board = {
+                line = 18,
+                file = "./board/xmake.lua"
+            }
+        },
+        values = {
+            "evb",
+            "evt",
+            "emu",
+            "openphone"
+        },
+        __sourceinfo_description = {
+            ["Select board type"] = {
+                line = 19,
+                file = "./board/xmake.lua"
+            }
+        },
+        showmenu = true,
+        description = "Select board type",
+        __sourceinfo_values = {
+            evt = {
+                line = 21,
+                file = "./board/xmake.lua"
+            },
+            openphone = {
+                line = 21,
+                file = "./board/xmake.lua"
+            },
+            emu = {
+                line = 21,
+                file = "./board/xmake.lua"
+            },
+            evb = {
+                line = 21,
+                file = "./board/xmake.lua"
+            }
+        },
+        __sourceinfo_showmenu = { }
+    },
+    mqtt_tls = {
+        __sourceinfo_default = { },
+        category = "middleware",
+        __scriptdir = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/components/net/protocols/mqtt",
+        description = "Paho MQTT TLS Choice",
+        __sourceinfo_category = {
+            middleware = {
+                line = 41,
+                file = "./components/net/protocols/mqtt/xmake.lua"
+            }
+        },
+        showmenu = true,
+        default = false,
+        __sourceinfo_showmenu = { },
+        __sourceinfo_description = {
+            ["Paho MQTT TLS Choice"] = {
+                line = 42,
+                file = "./components/net/protocols/mqtt/xmake.lua"
+            }
+        }
+    },
+    websocket_example = {
+        __sourceinfo_default = { },
+        category = "websocket",
+        __scriptdir = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/components/net/protocols/websocket",
+        description = {
+            "Enable librws webwocket example",
+            "  =y|n"
+        },
+        __sourceinfo_category = {
+            websocket = {
+                line = 39,
+                file = "./components/net/protocols/websocket/xmake.lua"
+            }
+        },
+        showmenu = true,
+        default = false,
+        __sourceinfo_showmenu = { },
+        __sourceinfo_description = {
+            ["  =y|n"] = {
+                line = 40,
+                file = "./components/net/protocols/websocket/xmake.lua"
+            },
+            ["Enable librws webwocket example"] = {
+                line = 40,
+                file = "./components/net/protocols/websocket/xmake.lua"
+            }
+        }
+    },
+    mqtt = {
+        __sourceinfo_default = { },
+        category = "middleware",
+        __scriptdir = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/components/net/protocols/mqtt",
+        description = {
+            "Enable Paho MQTT",
+            "  =y|n"
+        },
+        __sourceinfo_category = {
+            middleware = {
+                line = 33,
+                file = "./components/net/protocols/mqtt/xmake.lua"
+            }
+        },
+        showmenu = true,
+        default = true,
+        __sourceinfo_showmenu = { },
+        __sourceinfo_description = {
+            ["  =y|n"] = {
+                line = 34,
+                file = "./components/net/protocols/mqtt/xmake.lua"
+            },
+            ["Enable Paho MQTT"] = {
+                line = 34,
+                file = "./components/net/protocols/mqtt/xmake.lua"
+            }
+        }
+    },
+    codec_pt8311 = {
+        __sourceinfo_default = { },
+        category = "drivers",
+        __scriptdir = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/components/audio",
+        description = {
+            "Enable or disable pt8311 codec function",
+            "  =y|n"
+        },
+        __sourceinfo_category = {
+            drivers = {
+                line = 37,
+                file = "./components/audio/xmake.lua"
+            }
+        },
+        showmenu = true,
+        default = false,
+        __sourceinfo_showmenu = { },
+        __sourceinfo_description = {
+            ["Enable or disable pt8311 codec function"] = {
+                line = 38,
+                file = "./components/audio/xmake.lua"
+            },
+            ["  =y|n"] = {
+                line = 38,
+                file = "./components/audio/xmake.lua"
+            }
+        }
+    },
+    ["at tcpip"] = {
+        __sourceinfo_default = { },
+        category = "at command",
+        __scriptdir = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/open/appstart",
+        description = {
+            "Enable TCPIP at command",
+            "  =y|n"
+        },
+        __sourceinfo_category = {
+            ["at command"] = {
+                line = 16,
+                file = "./open/appstart/xmake.lua"
+            }
+        },
+        showmenu = true,
+        default = false,
+        __sourceinfo_showmenu = { },
+        __sourceinfo_description = {
+            ["Enable TCPIP at command"] = {
+                line = 17,
+                file = "./open/appstart/xmake.lua"
+            },
+            ["  =y|n"] = {
+                line = 17,
+                file = "./open/appstart/xmake.lua"
+            }
+        }
+    },
+    ["at vfs"] = {
+        __sourceinfo_default = { },
+        category = "at command",
+        __scriptdir = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/open/appstart",
+        description = {
+            "Enable VFS at command",
+            "  =y|n"
+        },
+        __sourceinfo_category = {
+            ["at command"] = {
+                line = 44,
+                file = "./open/appstart/xmake.lua"
+            }
+        },
+        showmenu = true,
+        default = false,
+        __sourceinfo_showmenu = { },
+        __sourceinfo_description = {
+            ["Enable VFS at command"] = {
+                line = 45,
+                file = "./open/appstart/xmake.lua"
+            },
+            ["  =y|n"] = {
+                line = 45,
+                file = "./open/appstart/xmake.lua"
+            }
+        }
+    },
+    wifiscan = {
+        __sourceinfo_default = { },
+        category = "top",
+        __scriptdir = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/scripts",
+        description = {
+            "Enable or disable WIFISCAN function",
+            "  =y|n"
+        },
+        __sourceinfo_category = {
+            top = {
+                line = 65,
+                file = "./scripts/top_option.lua"
+            }
+        },
+        showmenu = true,
+        default = true,
+        __sourceinfo_showmenu = { },
+        __sourceinfo_description = {
+            ["  =y|n"] = {
+                line = 66,
+                file = "./scripts/top_option.lua"
+            },
+            ["Enable or disable WIFISCAN function"] = {
+                line = 66,
+                file = "./scripts/top_option.lua"
+            }
+        }
+    },
+    mqtt_test = {
+        __sourceinfo_default = { },
+        category = "middleware",
+        __scriptdir = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/components/net/protocols/mqtt",
+        description = {
+            "Enable Paho MQTT Test",
+            "  =y|n"
+        },
+        __sourceinfo_category = {
+            middleware = {
+                line = 49,
+                file = "./components/net/protocols/mqtt/xmake.lua"
+            }
+        },
+        showmenu = true,
+        default = false,
+        __sourceinfo_showmenu = { },
+        __sourceinfo_description = {
+            ["Enable Paho MQTT Test"] = {
+                line = 50,
+                file = "./components/net/protocols/mqtt/xmake.lua"
+            },
+            ["  =y|n"] = {
+                line = 50,
+                file = "./components/net/protocols/mqtt/xmake.lua"
+            }
+        }
+    },
+    ftp_test = {
+        __sourceinfo_default = { },
+        category = "middleware",
+        __scriptdir = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/components/net/protocols/ftp",
+        description = {
+            "Enable ftp library Test",
+            "  =y|n"
+        },
+        __sourceinfo_category = {
+            middleware = {
+                line = 40,
+                file = "./components/net/protocols/ftp/xmake.lua"
+            }
+        },
+        showmenu = true,
+        default = false,
+        __sourceinfo_showmenu = { },
+        __sourceinfo_description = {
+            ["  =y|n"] = {
+                line = 41,
+                file = "./components/net/protocols/ftp/xmake.lua"
+            },
+            ["Enable ftp library Test"] = {
+                line = 41,
+                file = "./components/net/protocols/ftp/xmake.lua"
+            }
+        }
+    },
+    volte = {
+        __sourceinfo_default = { },
+        category = "top",
+        __scriptdir = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/scripts",
+        description = {
+            "Enable or disable volte function",
+            "  =y|n"
+        },
+        __sourceinfo_category = {
+            top = {
+                line = 73,
+                file = "./scripts/top_option.lua"
+            }
+        },
+        showmenu = true,
+        default = false,
+        __sourceinfo_showmenu = { },
+        __sourceinfo_description = {
+            ["Enable or disable volte function"] = {
+                line = 74,
+                file = "./scripts/top_option.lua"
+            },
+            ["  =y|n"] = {
+                line = 74,
+                file = "./scripts/top_option.lua"
+            }
+        }
+    },
+    ["at fota"] = {
+        __sourceinfo_default = { },
+        category = "at command",
+        __scriptdir = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/open/appstart",
+        description = {
+            "Enable FOTA at command",
+            "  =y|n"
+        },
+        __sourceinfo_category = {
+            ["at command"] = {
+                line = 51,
+                file = "./open/appstart/xmake.lua"
+            }
+        },
+        showmenu = true,
+        default = false,
+        __sourceinfo_showmenu = { },
+        __sourceinfo_description = {
+            ["Enable FOTA at command"] = {
+                line = 52,
+                file = "./open/appstart/xmake.lua"
+            },
+            ["  =y|n"] = {
+                line = 52,
+                file = "./open/appstart/xmake.lua"
+            }
+        }
+    },
+    ["at ssl"] = {
+        __sourceinfo_default = { },
+        category = "at command",
+        __scriptdir = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/open/appstart",
+        description = {
+            "Enable SSL at command",
+            "  =y|n"
+        },
+        __sourceinfo_category = {
+            ["at command"] = {
+                line = 37,
+                file = "./open/appstart/xmake.lua"
+            }
+        },
+        showmenu = true,
+        default = false,
+        __sourceinfo_showmenu = { },
+        __sourceinfo_description = {
+            ["  =y|n"] = {
+                line = 38,
+                file = "./open/appstart/xmake.lua"
+            },
+            ["Enable SSL at command"] = {
+                line = 38,
+                file = "./open/appstart/xmake.lua"
+            }
+        }
+    },
+    at_tool = {
+        __sourceinfo_default = { },
+        category = "interface",
+        __scriptdir = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/vendor/interface",
+        description = {
+            "Enable uart",
+            "  =y|n"
+        },
+        __sourceinfo_category = {
+            interface = {
+                line = 17,
+                file = "./vendor/interface/xmake.lua"
+            }
+        },
+        showmenu = true,
+        default = false,
+        __sourceinfo_showmenu = { },
+        __sourceinfo_description = {
+            ["Enable uart"] = {
+                line = 18,
+                file = "./vendor/interface/xmake.lua"
+            },
+            ["  =y|n"] = {
+                line = 18,
+                file = "./vendor/interface/xmake.lua"
+            }
+        }
+    }
+}

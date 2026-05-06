@@ -1,0 +1,21 @@
+{
+    mtimes = {
+        ["scripts/xmake.lua"] = 1776142485,
+        ["project/op-volte/cfg/base_option.lua"] = 1776142485,
+        ["project/op-volte/xmake.lua"] = 1776142485,
+        ["scripts/toolchain/risc-v-dl.lua"] = 1777733628,
+        ["board/xmake.lua"] = 1776142485,
+        ["scripts/toolchain/risc-v.lua"] = 1777733642,
+        ["scripts/toolchain/xmake.lua"] = 1776142485,
+        ["xmake.lua"] = 1776142485,
+        ["components/xmake.lua"] = 1776142485,
+        ["scripts/toolchain/arm.lua"] = 1776142485,
+        ["open/config/xmake.lua"] = 1776142485,
+        ["project/op-volte/cfg/cust_option.lua"] = 1776142485,
+        ["scripts/toolchain/risc-v_zc.lua"] = 1777733605,
+        ["scripts/top_option.lua"] = 1776142485,
+        ["open/xmake.lua"] = 1776142485
+    },
+    options = { },
+    recheck = false
+}

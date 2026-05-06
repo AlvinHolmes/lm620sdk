@@ -1,0 +1,33 @@
+; --------------------------------------------------------------------------------
+; @Title: ICT2110 Ramdump Script
+; @Description:
+; ICT2110 TRACE32 脚本
+; @Copyright: (C) 2022 Innochip-Tech.
+; --------------------------------------------------------------------------------
+
+IF !sYmbol.EXIST(g_osThreadList)
+(
+  PRINT "<no symbol>"
+  ENDDO
+)
+
+&thread_head=Var.Value((void*)&g_osThreadList)
+&thread_next=Var.Value((void*)g_osThreadList.next)
+&thread_offset=Var.Value(&((osThread_t)0x0)->resource_node)
+
+WHILE &thread_head!=&thread_next
+(
+  &thread_struct=&thread_next-&thread_offset
+  &start=Var.Value(((osThread_t)&thread_struct)->stackAddr)
+  &size=Var.Value(((osThread_t)&thread_struct)->stackSize)
+  &sp=Var.Value(((osThread_t)&thread_struct)->sp)
+  PRINT "=========================================================================================="
+  PRINTF "=>THREAD:%16s  Struct:0x%08x"  Var.String(((osThread_t)&thread_struct)->name)  &thread_struct
+  &end=&size+&start
+  do backtrace.cmm &sp &end
+
+  &thread_next=Var.Value((void*)((osThread_t)&thread_struct)->resource_node.next)
+)
+
+
+ENDDO

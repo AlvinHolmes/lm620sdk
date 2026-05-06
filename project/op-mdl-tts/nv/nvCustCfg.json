@@ -1,0 +1,27 @@
+{
+    "NV_DrvConfig": {
+        "NV_DrvConfig": {
+            "exceptReset": {
+                "kind": "BaseType",
+                "type": "unsigned char",
+                "value": 0,
+                "offset": 0,
+                "FLAG": true
+            },
+            "watchDog": {
+                "kind": "BaseType",
+                "type": "unsigned char",
+                "value": 0,
+                "offset": 2,
+                "FLAG": true
+            },
+            "uiccHotPlug": {
+                "kind": "BaseType",
+                "type": "unsigned char",
+                "value": 1,
+                "offset": 3,
+                "FLAG": true
+            }
+        }
+    }
+}

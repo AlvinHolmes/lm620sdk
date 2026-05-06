@@ -1,0 +1,10 @@
+prefix=/home/daili/git-2110/ict2110/middleware/amr/source/vo-amrwbenc-0.1.3/riscv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: VisualOn AMR-WB encoder
+Description: Adaptive Multi-Rate Wideband speech codec library
+Version: 0.1.3
+Libs: -L${libdir} -lvo-amrwbenc
+Cflags: -I${includedir}

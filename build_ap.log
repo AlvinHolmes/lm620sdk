@@ -1,0 +1,888 @@
+[0mchecking for platform ... [38;2;0;255;0;1mlinux[0m
+[0mchecking for architecture ... [38;2;0;255;0;1mx86_64[0m
+===>[AP]Current cfg: project/op-volte/cfg/
+===>[AP]Current cfg: project/op-volte/cfg/
+===>[AP]Current cfg: project/op-volte/cfg/
+===>[AP]Current cfg: project/op-volte/cfg/
+===>NOTICE: Partition cfg: project/op-volte/cfg/
+===>NOTICE: Link scripts cfg: project/op-volte/cfg/
+[0m[38;2;0;255;0;1m[  3%]:[0m cache compiling.debug open/drivers/src/es8311/es8311.c[0m
+[0m[38;2;0;255;0;1m[  3%]:[0m cache compiling.debug open/drivers/src/onewire/onewire_demo.c[0m
+[0m[38;2;0;255;0;1m[  3%]:[0m cache compiling.debug open/drivers/src/gc032a/gc032a.c[0m
+[0m[38;2;0;255;0;1m[  3%]:[0m cache compiling.debug open/drivers/src/pa/aw87390.c[0m
+[0m[38;2;0;255;0;1m[  3%]:[0m cache compiling.debug open/drivers/src/disp/display_nv3041a.c[0m
+[0m[38;2;0;255;0;1m[  3%]:[0m cache compiling.debug open/drivers/src/disp/disp_emu.c[0m
+[0m[38;2;0;255;0;1m[  3%]:[0m cache compiling.debug open/drivers/src/disp/display_st7789v.c[0m
+[0m[38;2;0;255;0;1m[  3%]:[0m cache compiling.debug open/drivers/src/st7789v/st7789v.c[0m
+[0m[38;2;0;255;0;1m[  3%]:[0m cache compiling.debug open/drivers/src/i2c/i2c_device.c[0m
+[0m[38;2;0;255;0;1m[  3%]:[0m cache compiling.debug open/drivers/src/camera/capture_gc032a.c[0m
+[0m[38;2;0;255;0;1m[  3%]:[0m cache compiling.debug open/drivers/src/input/input_emu.c[0m
+[0m[38;2;0;255;0;1m[  3%]:[0m cache compiling.debug open/drivers/src/res_tree/res_tree.c[0m
+[0m[38;2;0;255;0;1m[  3%]:[0m cache compiling.debug open/drivers/src/res_tree/res_extldo.c[0m
+[0m[38;2;0;255;0;1m[  3%]:[0m cache compiling.debug open/drivers/src/lcd_te/drv_lcd_te.c[0m
+[0m[38;2;0;255;0;1m[  3%]:[0m cache compiling.debug open/drivers/src/onewire/onewire.c[0m
+[0m[38;2;0;255;0;1m[  3%]:[0m cache compiling.debug open/drivers/src/pwrkey/drv_pwrkey.c[0m
+[0m[38;2;0;255;0;1m[  4%]:[0m cache compiling.debug components/audio/amr.c[0m
+[0m[38;2;0;255;0;1m[  4%]:[0m cache compiling.debug components/audio/wav/wav.c[0m
+[0m[38;2;0;255;0;1m[  4%]:[0m cache compiling.debug components/audio/audio_codec.c[0m
+[0m[38;2;0;255;0;1m[  5%]:[0m cache compiling.debug components/audio/audio_local.c[0m
+[0m[38;2;0;255;0;1m[  5%]:[0m cache compiling.debug components/audio/audio_monitor.c[0m
+[0m[38;2;0;255;0;1m[  5%]:[0m cache compiling.debug components/audio/audio_pa.c[0m
+[0m[38;2;0;255;0;1m[  5%]:[0m cache compiling.debug components/audio/audio_voice.c[0m
+[0m[38;2;0;255;0;1m[  5%]:[0m cache compiling.debug components/audio/enc_dec/amr_dec.c[0m
+[0m[38;2;0;255;0;1m[  5%]:[0m cache compiling.debug components/audio/enc_dec/opus_dec.c[0m
+[0m[38;2;0;255;0;1m[  5%]:[0m cache compiling.debug components/audio/enc_dec/mp3_dec.c[0m
+[0m[38;2;0;255;0;1m[  5%]:[0m cache compiling.debug components/audio/enc_dec/wav_dec.c[0m
+[0m[38;2;0;255;0;1m[  5%]:[0m cache compiling.debug components/audio/enc_dec/amr_enc.c[0m
+[0m[38;2;0;255;0;1m[  5%]:[0m cache compiling.debug components/audio/enc_dec/wav_enc.c[0m
+[0m[38;2;0;255;0;1m[  6%]:[0m cache compiling.debug components/audio/dev/audio_dev.c[0m
+[0m[38;2;0;255;0;1m[  6%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/amrnb/wrapper.cpp[0m
+[0m[38;2;0;255;0;1m[  8%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/c8_31pf.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[  8%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/div_32.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[  8%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/l_abs.cpp[0m
+[0m[38;2;0;255;0;1m[  6%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/amrwb/wrapper.cpp[0m
+[0m[38;2;0;255;0;1m[  6%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/q_gain_c.cpp[0m
+[0m[38;2;0;255;0;1m[  6%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/dtx_enc.cpp[0m
+[0m[38;2;0;255;0;1m[  6%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/s10_8pf.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[  7%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/sp_enc.cpp[0m
+[0m[38;2;0;255;0;1m[  7%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/g_adapt.cpp[0m
+[0m[38;2;0;255;0;1m[  8%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/ol_ltp.cpp[0m
+[0m[38;2;0;255;0;1m[  7%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/convolve.cpp[0m
+[0m[38;2;0;255;0;1m[  7%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/ton_stab.cpp[0m
+[0m[38;2;0;255;0;1m[  7%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/qgain795.cpp[0m
+[0m[38;2;0;255;0;1m[  7%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/gain_q.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[  8%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/calc_cor.cpp[0m
+[0m[38;2;0;255;0;1m[  7%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/enc_lag3.cpp[0m
+[0m[38;2;0;255;0;1m[  8%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/vad1.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[  9%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/cbsearch.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[  9%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/g_code.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[  9%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/c2_9pf.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[  9%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/pre_proc.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[  9%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/enc_lag6.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[  9%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/q_gain_p.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 10%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/c4_17pf.cpp[0m
+[0m[38;2;0;255;0;1m[ 10%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/gsmamr_encoder_wrapper.cpp[0m
+[0m[38;2;0;255;0;1m[ 10%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/spreproc.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 10%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/p_ol_wgh.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 10%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/l_comp.cpp[0m
+[0m[38;2;0;255;0;1m[ 10%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/corrwght_tab.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 10%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/c3_14pf.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 11%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/pitch_fr.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 11%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/lflg_upd.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 11%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/calc_en.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 11%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/lpc.cpp[0m
+[0m[38;2;0;255;0;1m[ 11%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/lag_wind.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 12%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/ets_to_wmf.cpp[0m
+[0m[38;2;0;255;0;1m[ 12%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/cl_ltp.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 12%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/cor_h_x.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 12%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/enc_output_format_tab.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 12%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/qua_gain.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 12%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/spstproc.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 12%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/l_extract.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 13%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/levinson.cpp[0m
+[0m[38;2;0;255;0;1m[ 13%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/pitch_ol.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 13%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/inter_36.cpp[0m
+[0m[38;2;0;255;0;1m[ 13%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/prm2bits.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 13%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/set_sign.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 13%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/lag_wind_tab.cpp[0m
+[0m[38;2;0;255;0;1m[ 13%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/cod_amr.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 14%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/ets_to_if2.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 14%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/cor_h.cpp[0m
+[0m[38;2;0;255;0;1m[ 14%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/c1035pf.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 14%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/autocorr.cpp[0m
+[0m[38;2;0;255;0;1m[ 14%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/qgain475.cpp[0m
+[0m[38;2;0;255;0;1m[ 14%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/amrencode.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 15%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/sid_sync.cpp[0m
+[0m[38;2;0;255;0;1m[ 15%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/g_pitch.cpp[0m
+[0m[38;2;0;255;0;1m[ 15%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/pre_big.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 15%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/hp_max.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 15%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/l_negate.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 15%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/cor_h_x2.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 16%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/c2_11pf.cpp[0m
+[0m[38;2;0;255;0;1m[ 16%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/enc/src/inter_36_tab.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 16%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/sp_dec.cpp[0m
+[0m[38;2;0;255;0;1m[ 16%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/d3_14pf.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 16%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/d8_31pf.cpp[0m
+[0m[38;2;0;255;0;1m[ 16%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/if2_to_ets.cpp[0m
+[0m[38;2;0;255;0;1m[ 16%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/qgain475_tab.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 17%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/dec_gain.cpp[0m
+[0m[38;2;0;255;0;1m[ 17%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/dec_lag3.cpp[0m
+[0m[38;2;0;255;0;1m[ 17%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/agc.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 17%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/dec_input_format_tab.cpp[0m
+[0m[38;2;0;255;0;1m[ 17%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/bgnscd.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 17%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/d2_9pf.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 17%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/preemph.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 18%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/d_plsf_5.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 18%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/decoder_gsm_amr.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 18%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/d_plsf_3.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 18%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/dec_lag6.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 19%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/post_pro.cpp[0m
+[0m[38;2;0;255;0;1m[ 19%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/d_gain_c.cpp[0m
+[0m[38;2;0;255;0;1m[ 19%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/d2_11pf.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 19%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/ec_gains.cpp[0m
+[0m[38;2;0;255;0;1m[ 19%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/amrdecode.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 19%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/lsp_avg.cpp[0m
+[0m[38;2;0;255;0;1m[ 19%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/a_refl.cpp[0m
+[0m[38;2;0;255;0;1m[ 19%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/pstfilt.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 20%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/pvgsmamrdecoder.cpp[0m
+[0m[38;2;0;255;0;1m[ 20%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/c_g_aver.cpp[0m
+[0m[38;2;0;255;0;1m[ 20%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/dtx_dec.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 20%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/dec_amr.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 20%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/d_plsf.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 20%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/d1035pf.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 21%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/ph_disp.cpp[0m
+[0m[38;2;0;255;0;1m[ 21%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/b_cn_cod.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 21%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/int_lsf.cpp[0m
+[0m[38;2;0;255;0;1m[ 21%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/ex_ctrl.cpp[0m
+[0m[38;2;0;255;0;1m[ 21%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/wmf_to_ets.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 21%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/d_gain_p.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 21%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/dec/src/d4_17pf.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 22%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/q_plsf_3.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 22%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/window_tab.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 22%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/q_plsf_5.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 22%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/copy.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 22%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/lsfwt.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 23%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/q_plsf_3_tbl.cpp[0m
+[0m[38;2;0;255;0;1m[ 23%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/set_zero.cpp[0m
+[0m[38;2;0;255;0;1m[ 23%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/l_shr_r.cpp[0m
+[0m[38;2;0;255;0;1m[ 23%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/bitreorder_tab.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 23%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/shr.cpp[0m
+[0m[38;2;0;255;0;1m[ 23%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/vad1.cpp[0m
+[0m[38;2;0;255;0;1m[ 23%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/div_32.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 23%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/l_abs.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 24%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/pred_lt.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 24%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/shr_r.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 24%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/round.cpp[0m
+[0m[38;2;0;255;0;1m[ 24%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/sub.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 25%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/lsp_lsf.cpp[0m
+[0m[38;2;0;255;0;1m[ 25%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/residu.cpp[0m
+[0m[38;2;0;255;0;1m[ 25%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/bitno_tab.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 25%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/bits2prm.cpp[0m
+[0m[38;2;0;255;0;1m[ 25%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/l_deposit_l.cpp[0m
+[0m[38;2;0;255;0;1m[ 25%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/syn_filt.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 25%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/vad2.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 25%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/overflow_tbl.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 25%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/r_fft.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 26%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/int_lpc.cpp[0m
+[0m[38;2;0;255;0;1m[ 26%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/reorder.cpp[0m
+[0m[38;2;0;255;0;1m[ 26%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/q_plsf_5_tbl.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 27%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/negate.cpp[0m
+[0m[38;2;0;255;0;1m[ 27%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/norm_s.cpp[0m
+[0m[38;2;0;255;0;1m[ 27%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/gc_pred.cpp[0m
+[0m[38;2;0;255;0;1m[ 27%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/inv_sqrt_tbl.cpp[0m
+[0m[38;2;0;255;0;1m[ 27%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/az_lsp.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 27%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/gmed_n.cpp[0m
+[0m[38;2;0;255;0;1m[ 27%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/inv_sqrt.cpp[0m
+[0m[38;2;0;255;0;1m[ 27%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/gains_tbl.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 27%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/ph_disp_tab.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 28%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/get_const_tbls.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 28%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/norm_l.cpp[0m
+[0m[38;2;0;255;0;1m[ 28%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/sqrt_l.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 28%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/pow2_tbl.cpp[0m
+[0m[38;2;0;255;0;1m[ 28%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/div_s.cpp[0m
+[0m[38;2;0;255;0;1m[ 28%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/lsp_tab.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 29%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/extract_h.cpp[0m
+[0m[38;2;0;255;0;1m[ 29%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/grid_tbl.cpp[0m
+[0m[38;2;0;255;0;1m[ 29%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/extract_l.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 29%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/mult_r.cpp[0m
+[0m[38;2;0;255;0;1m[ 29%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/add.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 29%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/log2.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 29%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/weight_a.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 30%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/lsp_lsf_tbl.cpp[0m
+[0m[38;2;0;255;0;1m[ 30%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/c2_9pf_tab.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 30%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/l_deposit_h.cpp[0m
+[0m[38;2;0;255;0;1m[ 30%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/lsp_az.cpp[0m
+[0m[38;2;0;255;0;1m[ 30%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/log2_norm.cpp[0m
+[0m[38;2;0;255;0;1m[ 30%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/lsp.cpp[0m
+[0m[38;2;0;255;0;1m[ 30%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/gray_tbl.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 31%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/log2_tbl.cpp[0m
+[0m[38;2;0;255;0;1m[ 31%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/sqrt_l_tbl.cpp[0m
+[0m[38;2;0;255;0;1m[ 31%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/q_plsf.cpp[0m
+[0m[38;2;0;255;0;1m[ 31%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/pow2.cpp[0m
+[0m[38;2;0;255;0;1m[ 31%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_nb/common/src/qua_gain_tbl.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 31%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/isf_extrapolation.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 32%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/highpass_400hz_at_12k8.cpp[0m
+[0m[38;2;0;255;0;1m[ 32%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/qpisf_2s.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 32%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/band_pass_6k_7k.cpp[0m
+[0m[38;2;0;255;0;1m[ 32%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/pit_shrp.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 33%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/median5.cpp[0m
+[0m[38;2;0;255;0;1m[ 33%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/dec_acelp_2p_in_64.cpp[0m
+[0m[38;2;0;255;0;1m[ 33%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/scale_signal.cpp[0m
+[0m[38;2;0;255;0;1m[ 33%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/get_amr_wb_bits.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 33%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/agc2_amr_wb.cpp[0m
+[0m[38;2;0;255;0;1m[ 33%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/qpisf_2s_tab.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 33%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/highpass_50hz_at_12k8.cpp[0m
+[0m[38;2;0;255;0;1m[ 33%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/dec_alg_codebook.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 33%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/weight_amrwb_lpc.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 34%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/isp_isf.cpp[0m
+[0m[38;2;0;255;0;1m[ 34%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/low_pass_filt_7k.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 34%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/pvamrwb_math_op.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 34%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/qisf_ns.cpp[0m
+[0m[38;2;0;255;0;1m[ 34%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/deemphasis_32.cpp[0m
+[0m[38;2;0;255;0;1m[ 34%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/qisf_ns_tab.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 35%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/homing_amr_wb_dec.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 35%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/preemph_amrwb_dec.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 35%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/pred_lt4.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 35%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/interpolate_isp.cpp[0m
+[0m[38;2;0;255;0;1m[ 35%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/synthesis_amr_wb.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 35%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/wb_syn_filt.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 35%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/lagconceal.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 36%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/noise_gen_amrwb.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 36%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/dec_acelp_4p_in_64.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 36%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/q_gain2_tab.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 36%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/phase_dispersion.cpp[0m
+[0m[38;2;0;255;0;1m[ 36%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/decoder_amr_wb.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 37%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/oversamp_12k8_to_16k.cpp[0m
+[0m[38;2;0;255;0;1m[ 37%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/isp_az.cpp[0m
+[0m[38;2;0;255;0;1m[ 37%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/normalize_amr_wb.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 37%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/mime_io.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 37%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/pvamrwbdecoder.cpp[0m
+[0m[38;2;0;255;0;1m[ 37%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/dec_gain2_amr_wb.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 37%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/dtx_decoder_amr_wb.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 38%]:[0m cache compiling.debug components/audio/amr/source/opencore-amr-0.1.6/opencore/codecs_v2/audio/gsm_amr/amr_wb/dec/src/voice_factor.cpp[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 38%]:[0m cache compiling.debug components/net/lwip/port/arch/sys_arch.c[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 38%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/init.c[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 38%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/def.c[0m
+[0m[38;2;0;255;0;1m[ 38%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/dns.c[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 38%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/inet_chksum.c[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 38%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/ip.c[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 39%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/memp.c[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 39%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/netif.c[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 39%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/pbuf.c[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 39%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/raw.c[0m
+[0m[38;2;0;255;0;1m[ 39%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/stats.c[0m
+[0m[38;2;0;255;0;1m[ 39%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/sys.c[0m
+[0m[38;2;0;255;0;1m[ 40%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/tcp.c[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 40%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/tcp_in.c[0m
+[0m[38;2;0;255;0;1m[ 40%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/tcp_out.c[0m
+[0m[38;2;0;255;0;1m[ 40%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/timeouts.c[0m
+[0m[38;2;0;255;0;1m[ 40%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/udp.c[0m
+[0m[38;2;0;255;0;1m[ 40%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/altcp.c[0m
+[0m[38;2;0;255;0;1m[ 41%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/altcp_alloc.c[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 41%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/altcp_tcp.c[0m
+[0m[38;2;0;255;0;1m[ 41%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/ipv4/autoip.c[0m
+[0m[38;2;0;255;0;1m[ 41%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/ipv4/dhcp.c[0m
+[0m[38;2;0;255;0;1m[ 41%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/ipv4/etharp.c[0m
+[0m[38;2;0;255;0;1m[ 41%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/ipv4/icmp.c[0m
+[0m[38;2;0;255;0;1m[ 41%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/ipv4/igmp.c[0m
+[0m[38;2;0;255;0;1m[ 42%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/ipv4/ip4_frag.c[0m
+[0m[38;2;0;255;0;1m[ 42%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/ipv4/ip4.c[0m
+[0m[38;2;0;255;0;1m[ 42%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/ipv4/ip4_addr.c[0m
+[0m[38;2;0;255;0;1m[ 42%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/ipv6/dhcp6.c[0m
+[0m[38;2;0;255;0;1m[ 42%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/ipv6/ethip6.c[0m
+[0m[38;2;0;255;0;1m[ 42%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/ipv6/icmp6.c[0m
+[0m[38;2;0;255;0;1m[ 43%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/ipv6/inet6.c[0m
+[0m[38;2;0;255;0;1m[ 43%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/ipv6/ip6.c[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 43%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/ipv6/ip6_addr.c[0m
+[0m[38;2;0;255;0;1m[ 43%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/ipv6/ip6_frag.c[0m
+[0m[38;2;0;255;0;1m[ 43%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/ipv6/mld6.c[0m
+[0m[38;2;0;255;0;1m[ 43%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/core/ipv6/nd6.c[0m
+[0m[38;2;0;255;0;1m[ 43%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/api/api_lib.c[0m
+[0m[38;2;0;255;0;1m[ 44%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/api/api_msg.c[0m
+[0m[38;2;0;255;0;1m[ 44%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/api/err.c[0m
+[0m[38;2;255;255;0;1mcc1plus: warning: '-Werror=' argument '-Werror=int-conversion' is not valid for C++[0m
+[0m[38;2;0;255;0;1m[ 44%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/api/if_api.c[0m
+[0m[38;2;0;255;0;1m[ 44%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/api/netbuf.c[0m
+[0m[38;2;0;255;0;1m[ 44%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/api/netdb.c[0m
+[0m[38;2;0;255;0;1m[ 44%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/api/netifapi.c[0m
+[0m[38;2;0;255;0;1m[ 45%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/api/sockets.c[0m
+[0m[38;2;0;255;0;1m[ 45%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/api/tcpip.c[0m
+[0m[38;2;0;255;0;1m[ 45%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/ethernet.c[0m
+[0m[38;2;0;255;0;1m[ 45%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/bridgeif.c[0m
+[0m[38;2;0;255;0;1m[ 45%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/bridgeif_fdb.c[0m
+[0m[38;2;0;255;0;1m[ 45%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/slipif.c[0m
+[0m[38;2;0;255;0;1m[ 46%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/lowpan6.c[0m
+[0m[38;2;0;255;0;1m[ 46%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/lowpan6_ble.c[0m
+[0m[38;2;0;255;0;1m[ 46%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/lowpan6_common.c[0m
+[0m[38;2;0;255;0;1m[ 46%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/zepif.c[0m
+[0m[38;2;0;255;0;1m[ 46%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/ppp/auth.c[0m
+[0m[38;2;0;255;0;1m[ 46%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/ppp/ccp.c[0m
+[0m[38;2;0;255;0;1m[ 46%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/ppp/chap-md5.c[0m
+[0m[38;2;0;255;0;1m[ 47%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/ppp/chap_ms.c[0m
+[0m[38;2;0;255;0;1m[ 47%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/ppp/chap-new.c[0m
+[0m[38;2;0;255;0;1m[ 47%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/ppp/demand.c[0m
+[0m[38;2;0;255;0;1m[ 47%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/ppp/eap.c[0m
+[0m[38;2;0;255;0;1m[ 47%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/ppp/ecp.c[0m
+[0m[38;2;0;255;0;1m[ 47%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/ppp/eui64.c[0m
+[0m[38;2;0;255;0;1m[ 48%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/ppp/fsm.c[0m
+[0m[38;2;0;255;0;1m[ 48%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/ppp/ipcp.c[0m
+[0m[38;2;0;255;0;1m[ 48%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/ppp/ipv6cp.c[0m
+[0m[38;2;0;255;0;1m[ 48%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/ppp/lcp.c[0m
+[0m[38;2;0;255;0;1m[ 48%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/ppp/magic.c[0m
+[0m[38;2;0;255;0;1m[ 48%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/ppp/mppe.c[0m
+[0m[38;2;0;255;0;1m[ 49%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/ppp/multilink.c[0m
+[0m[38;2;0;255;0;1m[ 49%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/ppp/ppp.c[0m
+[0m[38;2;0;255;0;1m[ 49%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/ppp/pppapi.c[0m
+[0m[38;2;0;255;0;1m[ 49%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/ppp/pppcrypt.c[0m
+[0m[38;2;0;255;0;1m[ 49%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/ppp/pppoe.c[0m
+[0m[38;2;0;255;0;1m[ 49%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/ppp/pppol2tp.c[0m
+[0m[38;2;0;255;0;1m[ 50%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/ppp/pppos.c[0m
+[0m[38;2;0;255;0;1m[ 50%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/ppp/upap.c[0m
+[0m[38;2;0;255;0;1m[ 50%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/ppp/utils.c[0m
+[0m[38;2;0;255;0;1m[ 50%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/ppp/vj.c[0m
+[0m[38;2;0;255;0;1m[ 50%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/ppp/polarssl/arc4.c[0m
+[0m[38;2;0;255;0;1m[ 50%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/ppp/polarssl/des.c[0m
+[0m[38;2;0;255;0;1m[ 51%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/ppp/polarssl/md4.c[0m
+[0m[38;2;0;255;0;1m[ 51%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/ppp/polarssl/md5.c[0m
+[0m[38;2;0;255;0;1m[ 51%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/netif/ppp/polarssl/sha1.c[0m
+[0m[38;2;0;255;0;1m[ 51%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/apps/snmp/snmp_asn1.c[0m
+[0m[38;2;0;255;0;1m[ 51%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/apps/snmp/snmp_core.c[0m
+[0m[38;2;0;255;0;1m[ 51%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/apps/snmp/snmp_mib2.c[0m
+[0m[38;2;0;255;0;1m[ 51%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/apps/snmp/snmp_mib2_icmp.c[0m
+[0m[38;2;0;255;0;1m[ 51%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/apps/snmp/snmp_mib2_interfaces.c[0m
+[0m[38;2;0;255;0;1m[ 52%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/apps/snmp/snmp_mib2_ip.c[0m
+[0m[38;2;0;255;0;1m[ 52%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/apps/snmp/snmp_mib2_snmp.c[0m
+[0m[38;2;0;255;0;1m[ 52%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/apps/snmp/snmp_mib2_system.c[0m
+[0m[38;2;0;255;0;1m[ 52%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/apps/snmp/snmp_mib2_tcp.c[0m
+[0m[38;2;0;255;0;1m[ 52%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/apps/snmp/snmp_mib2_udp.c[0m
+[0m[38;2;0;255;0;1m[ 52%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/apps/snmp/snmp_snmpv2_framework.c[0m
+[0m[38;2;0;255;0;1m[ 53%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/apps/snmp/snmp_snmpv2_usm.c[0m
+[0m[38;2;0;255;0;1m[ 53%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/apps/snmp/snmp_msg.c[0m
+[0m[38;2;0;255;0;1m[ 53%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/apps/snmp/snmpv3.c[0m
+[0m[38;2;0;255;0;1m[ 53%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/apps/snmp/snmp_netconn.c[0m
+[0m[38;2;0;255;0;1m[ 53%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/apps/snmp/snmp_pbuf_stream.c[0m
+[0m[38;2;0;255;0;1m[ 53%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/apps/snmp/snmp_raw.c[0m
+[0m[38;2;0;255;0;1m[ 53%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/apps/snmp/snmp_scalar.c[0m
+[0m[38;2;0;255;0;1m[ 54%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/apps/snmp/snmp_table.c[0m
+[0m[38;2;0;255;0;1m[ 54%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/apps/snmp/snmp_threadsync.c[0m
+[0m[38;2;0;255;0;1m[ 54%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/apps/snmp/snmp_traps.c[0m
+[0m[38;2;0;255;0;1m[ 55%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/apps/http/altcp_proxyconnect.c[0m
+[0m[38;2;0;255;0;1m[ 55%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/apps/http/fs.c[0m
+[0m[38;2;0;255;0;1m[ 55%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/apps/http/http_client.c[0m
+[0m[38;2;0;255;0;1m[ 55%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/apps/http/httpd.c[0m
+[0m[38;2;0;255;0;1m[ 55%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/apps/sntp/sntp.c[0m
+[0m[38;2;0;255;0;1m[ 55%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/apps/mdns/mdns.c[0m
+[0m[38;2;0;255;0;1m[ 55%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/apps/netbiosns/netbiosns.c[0m
+[0m[38;2;0;255;0;1m[ 55%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/apps/mqtt/mqtt.c[0m
+[0m[38;2;0;255;0;1m[ 55%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/apps/altcp_tls/altcp_tls_mbedtls.c[0m
+[0m[38;2;0;255;0;1m[ 56%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c[0m
+[0m[38;2;0;255;0;1m[ 56%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/apps/snmp/snmpv3_mbedtls.c[0m
+[0m[38;2;0;255;0;1m[ 56%]:[0m cache compiling.debug components/net/lwip/lwip-2.1.2/src/apps/route/ip6_route.c[0m
+[0m[38;2;0;255;0;1m[ 56%]:[0m cache compiling.debug components/driver/src/soc/drv_clk.c[0m
+[0m[38;2;0;255;0;1m[ 56%]:[0m cache compiling.debug components/driver/src/soc/drv_regulator.c[0m
+[0m[38;2;0;255;0;1m[ 56%]:[0m cache compiling.debug components/driver/src/soc/drv_sysctrl.c[0m
+[0m[38;2;0;255;0;1m[ 56%]:[0m cache compiling.debug components/driver/src/i2c/drv_soft_i2c.c[0m
+[0m[38;2;0;255;0;1m[ 57%]:[0m cache compiling.debug components/driver/src/i2c/drv_i2c.c[0m
+[0m[38;2;0;255;0;1m[ 57%]:[0m cache compiling.debug components/driver/src/i2s/drv_i2s.c[0m
+[0m[38;2;0;255;0;1m[ 57%]:[0m cache compiling.debug components/driver/src/i2s/i2s_core.c[0m
+[0m[38;2;0;255;0;1m[ 57%]:[0m cache compiling.debug components/driver/src/keypad/drv_kpd.c[0m
+[0m[38;2;0;255;0;1m[ 57%]:[0m cache compiling.debug components/driver/src/gpio/drv_gpio.c[0m
+[0m[38;2;0;255;0;1m[ 57%]:[0m cache compiling.debug components/driver/src/pinctrl/drv_pin.c[0m
+[0m[38;2;0;255;0;1m[ 58%]:[0m cache compiling.debug components/driver/src/ssp/drv_ssp.c[0m
+[0m[38;2;0;255;0;1m[ 58%]:[0m cache compiling.debug components/driver/src/spi/drv_spi.c[0m
+[0m[38;2;0;255;0;1m[ 58%]:[0m cache compiling.debug components/driver/src/spi_cam/drv_spi_cam.c[0m
+[0m[38;2;0;255;0;1m[ 58%]:[0m cache compiling.debug components/driver/src/spi_cam/spi_cam_core.c[0m
+[0m[38;2;0;255;0;1m[ 58%]:[0m cache compiling.debug components/driver/src/uart/drv_uart.c[0m
+[0m[38;2;0;255;0;1m[ 58%]:[0m cache compiling.debug components/driver/src/wdt/wdt_core.c[0m
+[0m[38;2;0;255;0;1m[ 58%]:[0m cache compiling.debug components/driver/src/wdt/drv_wdt.c[0m
+[0m[38;2;0;255;0;1m[ 59%]:[0m cache compiling.debug components/driver/src/lcd/drv_lcd.c[0m
+[0m[38;2;0;255;0;1m[ 59%]:[0m cache compiling.debug open/appstart/src/app_uart_at.c[0m
+[0m[38;2;0;255;0;1m[ 59%]:[0m cache compiling.debug open/appstart/src/app_urc_ring_indicate.c[0m
+[0m[38;2;0;255;0;1m[ 59%]:[0m cache compiling.debug open/appstart/src/at_command_set/at_command_set_user.c[0m
+[0m[38;2;0;255;0;1m[ 59%]:[0m cache compiling.debug open/appstart/src/at_command_set/at_command_set_driver.c[0m
+[0m[38;2;0;255;0;1m[ 59%]:[0m cache compiling.debug open/appstart/src/at_command_set/at_command_set_middleware.c[0m
+[0m[38;2;0;255;0;1m[ 60%]:[0m cache compiling.debug open/appstart/src/app_4g_start.c[0m
+[0m[38;2;0;255;0;1m[ 60%]:[0m cache compiling.debug open/appstart/src/app_main.c[0m
+[0m[38;2;0;255;0;1m[ 60%]:[0m cache compiling.debug open/appstart/src/app_urc_monitor.c[0m
+[0m[38;2;0;255;0;1m[ 60%]:[0m cache compiling.debug open/appstart/src/app_monitor.c[0m
+[0m[38;2;0;255;0;1m[ 60%]:[0m cache compiling.debug open/appstart/src/bip/app_bip.c[0m
+[0m[38;2;0;255;0;1m[ 60%]:[0m cache compiling.debug open/appstart/src/mux_proxy/mux_proxy_control.c[0m
+[0m[38;2;0;255;0;1m[ 61%]:[0m cache compiling.debug open/appstart/src/mux_proxy/mux_proxy_ip.c[0m
+[0m[38;2;0;255;0;1m[ 61%]:[0m cache compiling.debug open/appstart/src/mux_proxy/mux_proxy_pass_through.c[0m
+[0m[38;2;0;255;0;1m[ 61%]:[0m cache compiling.debug open/appstart/src/mux_proxy/mux_proxy_at.c[0m
+[0m[38;2;0;255;0;1m[ 61%]:[0m cache compiling.debug open/appstart/src/mux_proxy/mux_proxy_log.c[0m
+[0m[38;2;0;255;0;1m[ 61%]:[0m cache compiling.debug open/appstart/src/mux_proxy/mux_proxy_main.c[0m
+[0m[38;2;0;255;0;1m[ 61%]:[0m cache compiling.debug open/fs/src/vfs_cmd.c[0m
+[0m[38;2;0;255;0;1m[ 62%]:[0m cache compiling.debug open/net/src/net_api_common.c[0m
+[0m[38;2;0;255;0;1m[ 62%]:[0m cache compiling.debug board/openphone/board.c[0m
+[0m[38;2;0;255;0;1m[ 62%]:[0m cache compiling.debug board/openphone/pinmap_mdl.c[0m
+[0m[38;2;0;255;0;1m[ 62%]:[0m cache compiling.debug board/openphone/pinmap_volte.c[0m
+[0m[38;2;0;255;0;1m[ 62%]:[0m cache compiling.debug board/openphone/pinmap_video.c[0m
+[0m[38;2;0;255;0;1m[ 62%]:[0m cache compiling.debug components/net/protocols/http/httpclient-v1.1.0/src/http_client.c[0m
+[0m[38;2;0;255;0;1m[ 63%]:[0m cache compiling.debug components/net/protocols/http/httpclient-v1.1.0/src/http_form_data.c[0m
+[0m[38;2;0;255;0;1m[ 63%]:[0m cache compiling.debug components/net/protocols/http/httpclient-v1.1.0/src/http_application_api.c[0m
+[0m[38;2;0;255;0;1m[ 63%]:[0m cache compiling.debug components/net/protocols/http/httpclient-v1.1.0/port/http_wrapper.c[0m
+[0m[38;2;0;255;0;1m[ 63%]:[0m cache compiling.debug components/net/protocols/http/httpclient-v1.1.0/port/sample/http_client_get_file.c[0m
+[0m[38;2;0;255;0;1m[ 63%]:[0m cache compiling.debug open/config/src/version_config.c[0m
+[0m[38;2;0;255;0;1m[ 63%]:[0m cache compiling.debug open/config/src/os_user_config.c[0m
+[0m[38;2;0;255;0;1m[ 63%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/q_gain2.c[0m
+[0m[38;2;0;255;0;1m[ 64%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/cor_h_x.c[0m
+[0m[38;2;0;255;0;1m[ 64%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/c2t64fx.c[0m
+[0m[38;2;0;255;0;1m[ 64%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/residu.c[0m
+[0m[38;2;0;255;0;1m[ 64%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/bits.c[0m
+[0m[38;2;0;255;0;1m[ 64%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/homing.c[0m
+[0m[38;2;0;255;0;1m[ 65%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/preemph.c[0m
+[0m[38;2;0;255;0;1m[ 65%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/syn_filt.c[0m
+[0m[38;2;0;255;0;1m[ 65%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/weight_a.c[0m
+[0m[38;2;0;255;0;1m[ 65%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/hp_wsp.c[0m
+[0m[38;2;0;255;0;1m[ 65%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/voicefac.c[0m
+[0m[38;2;0;255;0;1m[ 65%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/scale.c[0m
+[0m[38;2;0;255;0;1m[ 66%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/oper_32b.c[0m
+[0m[38;2;0;255;0;1m[ 66%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/gpclip.c[0m
+[0m[38;2;0;255;0;1m[ 64%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/q_pulse.c[0m
+[0m[38;2;0;255;0;1m[ 64%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/voAMRWBEnc.c[0m
+[0m[38;2;0;255;0;1m[ 66%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/c4t64fx.c[0m
+[0m[38;2;0;255;0;1m[ 66%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/pred_lt4.c[0m
+[0m[38;2;0;255;0;1m[ 66%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/pitch_f4.c[0m
+[0m[38;2;0;255;0;1m[ 66%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/dtx.c[0m
+[0m[38;2;0;255;0;1m[ 66%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/wb_vad.c[0m
+[0m[38;2;0;255;0;1m[ 67%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/deemph.c[0m
+[0m[38;2;0;255;0;1m[ 67%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/hp400.c[0m
+[0m[38;2;0;255;0;1m[ 67%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/isp_az.c[0m
+[0m[38;2;0;255;0;1m[ 67%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/lp_dec2.c[0m
+[0m[38;2;0;255;0;1m[ 67%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/updt_tar.c[0m
+[0m[38;2;0;255;0;1m[ 67%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/autocorr.c[0m
+[0m[38;2;0;255;0;1m[ 68%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/int_lpc.c[0m
+[0m[38;2;0;255;0;1m[ 68%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/random.c[0m
+[0m[38;2;0;255;0;1m[ 68%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/g_pitch.c[0m
+[0m[38;2;0;255;0;1m[ 68%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/util.c[0m
+[0m[38;2;0;255;0;1m[ 68%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/hp50.c[0m
+[0m[38;2;0;255;0;1m[ 68%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/p_med_ol.c[0m
+[0m[38;2;0;255;0;1m[ 69%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/isp_isf.c[0m
+[0m[38;2;0;255;0;1m[ 69%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/lag_wind.c[0m
+[0m[38;2;0;255;0;1m[ 69%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/levinson.c[0m
+[0m[38;2;0;255;0;1m[ 69%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/log2.c[0m
+[0m[38;2;0;255;0;1m[ 69%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/mem_align.c[0m
+[0m[38;2;0;255;0;1m[ 69%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/stream.c[0m
+[0m[38;2;0;255;0;1m[ 70%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/qpisf_2s.c[0m
+[0m[38;2;0;255;0;1m[ 70%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/convolve.c[0m
+[0m[38;2;0;255;0;1m[ 70%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/pit_shrp.c[0m
+[0m[38;2;0;255;0;1m[ 70%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/az_isp.c[0m
+[0m[38;2;0;255;0;1m[ 70%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/hp6k.c[0m
+[0m[38;2;0;255;0;1m[ 70%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/qisf_ns.c[0m
+[0m[38;2;0;255;0;1m[ 70%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/math_op.c[0m
+[0m[38;2;0;255;0;1m[ 71%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/amrwbenc/src/decim54.c[0m
+[0m[38;2;0;255;0;1m[ 71%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/common/cmnMemory.c[0m
+[0m[38;2;0;255;0;1m[ 71%]:[0m cache compiling.debug components/audio/amr/source/vo-amrwbenc-0.1.3/wrapper.c[0m
+[0m[38;2;0;255;0;1m[ 71%]:[0m cache compiling.debug project/op-volte/src/example_main.c[0m
+[0m[38;2;0;255;0;1m[ 71%]:[0m cache compiling.debug components/net/protocols/mqtt/app_at_api/app_mqtt_qi.c[0m
+[0m[38;2;0;255;0;1m[ 71%]:[0m cache compiling.debug components/net/protocols/mqtt/app_at_api/app_mqtt.c[0m
+[0m[38;2;0;255;0;1m[ 71%]:[0m cache compiling.debug components/net/protocols/mqtt/pahomqtt-v1.1.0/MQTTPacket/src/MQTTUnsubscribeServer.c[0m
+[0m[38;2;0;255;0;1m[ 72%]:[0m cache compiling.debug components/net/protocols/mqtt/pahomqtt-v1.1.0/MQTTPacket/src/MQTTSubscribeClient.c[0m
+[0m[38;2;0;255;0;1m[ 72%]:[0m cache compiling.debug components/net/protocols/mqtt/pahomqtt-v1.1.0/MQTTPacket/src/MQTTConnectClient.c[0m
+[0m[38;2;0;255;0;1m[ 72%]:[0m cache compiling.debug components/net/protocols/mqtt/pahomqtt-v1.1.0/MQTTPacket/src/MQTTSubscribeServer.c[0m
+[0m[38;2;0;255;0;1m[ 72%]:[0m cache compiling.debug components/net/protocols/mqtt/pahomqtt-v1.1.0/MQTTPacket/src/MQTTUnsubscribeClient.c[0m
+[0m[38;2;0;255;0;1m[ 72%]:[0m cache compiling.debug components/net/protocols/mqtt/pahomqtt-v1.1.0/MQTTPacket/src/MQTTConnectServer.c[0m
+[0m[38;2;0;255;0;1m[ 72%]:[0m cache compiling.debug components/net/protocols/mqtt/pahomqtt-v1.1.0/MQTTPacket/src/MQTTFormat.c[0m
+[0m[38;2;0;255;0;1m[ 73%]:[0m cache compiling.debug components/net/protocols/mqtt/pahomqtt-v1.1.0/MQTTPacket/src/MQTTSerializePublish.c[0m
+[0m[38;2;0;255;0;1m[ 73%]:[0m cache compiling.debug components/net/protocols/mqtt/pahomqtt-v1.1.0/MQTTPacket/src/MQTTPacket.c[0m
+[0m[38;2;0;255;0;1m[ 73%]:[0m cache compiling.debug components/net/protocols/mqtt/pahomqtt-v1.1.0/MQTTPacket/src/MQTTDeserializePublish.c[0m
+[0m[38;2;0;255;0;1m[ 73%]:[0m cache compiling.debug components/net/protocols/mqtt/pahomqtt-v1.1.0/MQTTClient/src/MQTTClient.c[0m
+[0m[38;2;0;255;0;1m[ 73%]:[0m cache compiling.debug components/net/protocols/mqtt/pahomqtt-v1.1.0/MQTTClient/src/MQTTPort.c[0m
+[0m[38;2;0;255;0;1m[ 73%]:[0m cache compiling.debug components/firmwareupdate/src/ota_user.c[0m
+[0m[38;2;0;255;0;1m[ 74%]:[0m cache compiling.debug components/utilities/cJSON/cJSON.c[0m
+[0m[38;2;0;255;0;1m[ 74%]:[0m cache compiling.debug components/net/protocols/websocket/librws_1.3.0/src/rws_list.c[0m
+[0m[38;2;0;255;0;1m[ 74%]:[0m cache compiling.debug components/net/protocols/websocket/librws_1.3.0/src/rws_common.c[0m
+[0m[38;2;0;255;0;1m[ 74%]:[0m cache compiling.debug components/net/protocols/websocket/librws_1.3.0/src/rws_thread.c[0m
+[0m[38;2;0;255;0;1m[ 74%]:[0m cache compiling.debug components/net/protocols/websocket/librws_1.3.0/src/rws_memory.c[0m
+[0m[38;2;0;255;0;1m[ 74%]:[0m cache compiling.debug components/net/protocols/websocket/librws_1.3.0/src/rws_string.c[0m
+[0m[38;2;0;255;0;1m[ 74%]:[0m cache compiling.debug components/net/protocols/websocket/librws_1.3.0/src/rws_socketpriv.c[0m
+[0m[38;2;0;255;0;1m[ 75%]:[0m cache compiling.debug components/net/protocols/websocket/librws_1.3.0/src/rws_frame.c[0m
+[0m[38;2;0;255;0;1m[ 75%]:[0m cache compiling.debug components/net/protocols/websocket/librws_1.3.0/src/rws_error.c[0m
+[0m[38;2;0;255;0;1m[ 75%]:[0m cache compiling.debug components/net/protocols/websocket/librws_1.3.0/src/rws_socketpub.c[0m
+[0m[38;2;0;255;0;1m[ 75%]:[0m cache compiling.debug components/net/protocols/websocket/librws_1.3.0/src/librws.c[0m
+[0m[38;2;0;255;0;1m[ 75%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/net_sockets.c[0m
+[0m[38;2;0;255;0;1m[ 75%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/version.c[0m
+[0m[38;2;0;255;0;1m[ 76%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/ripemd160.c[0m
+[0m[38;2;0;255;0;1m[ 76%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/asn1parse.c[0m
+[0m[38;2;0;255;0;1m[ 76%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/padlock.c[0m
+[0m[38;2;0;255;0;1m[ 76%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/x509_crt.c[0m
+[0m[38;2;0;255;0;1m[ 76%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/sha512.c[0m
+[0m[38;2;0;255;0;1m[ 76%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/chachapoly.c[0m
+[0m[38;2;0;255;0;1m[ 76%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/version_features.c[0m
+[0m[38;2;0;255;0;1m[ 77%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/cipher_wrap.c[0m
+[0m[38;2;0;255;0;1m[ 77%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/x509_crl.c[0m
+[0m[38;2;0;255;0;1m[ 77%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/rsa.c[0m
+[0m[38;2;0;255;0;1m[ 77%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/oid.c[0m
+[0m[38;2;0;255;0;1m[ 77%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/chacha20.c[0m
+[0m[38;2;0;255;0;1m[ 77%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/psa_crypto.c[0m
+[0m[38;2;0;255;0;1m[ 78%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/entropy_poll.c[0m
+[0m[38;2;0;255;0;1m[ 78%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/nist_kw.c[0m
+[0m[38;2;0;255;0;1m[ 78%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/ssl_srv.c[0m
+[0m[38;2;0;255;0;1m[ 78%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/constant_time.c[0m
+[0m[38;2;0;255;0;1m[ 78%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/aes.c[0m
+[0m[38;2;0;255;0;1m[ 79%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/rsa_internal.c[0m
+[0m[38;2;0;255;0;1m[ 79%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/ecjpake.c[0m
+[0m[38;2;0;255;0;1m[ 79%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/certs.c[0m
+[0m[38;2;0;255;0;1m[ 79%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/psa_its_file.c[0m
+[0m[38;2;0;255;0;1m[ 79%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/pkcs12.c[0m
+[0m[38;2;0;255;0;1m[ 79%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/sha1.c[0m
+[0m[38;2;0;255;0;1m[ 79%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/platform.c[0m
+[0m[38;2;0;255;0;1m[ 79%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/error.c[0m
+[0m[38;2;0;255;0;1m[ 80%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/psa_crypto_client.c[0m
+[0m[38;2;0;255;0;1m[ 80%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/platform_util.c[0m
+[0m[38;2;0;255;0;1m[ 80%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/md.c[0m
+[0m[38;2;0;255;0;1m[ 80%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/x509_csr.c[0m
+[0m[38;2;0;255;0;1m[ 80%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/xtea.c[0m
+[0m[38;2;0;255;0;1m[ 80%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/gcm.c[0m
+[0m[38;2;0;255;0;1m[ 81%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/hkdf.c[0m
+[0m[38;2;0;255;0;1m[ 81%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/psa_crypto_ecp.c[0m
+[0m[38;2;0;255;0;1m[ 81%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/psa_crypto_hash.c[0m
+[0m[38;2;0;255;0;1m[ 82%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/ctr_drbg.c[0m
+[0m[38;2;0;255;0;1m[ 82%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/blowfish.c[0m
+[0m[38;2;0;255;0;1m[ 82%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/psa_crypto_aead.c[0m
+[0m[38;2;0;255;0;1m[ 82%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/dhm.c[0m
+[0m[38;2;0;255;0;1m[ 82%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/cipher.c[0m
+[0m[38;2;0;255;0;1m[ 82%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/poly1305.c[0m
+[0m[38;2;0;255;0;1m[ 82%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/psa_crypto_storage.c[0m
+[0m[38;2;0;255;0;1m[ 82%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/pkcs5.c[0m
+[0m[38;2;0;255;0;1m[ 82%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/aria.c[0m
+[0m[38;2;0;255;0;1m[ 82%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/pkparse.c[0m
+[0m[38;2;0;255;0;1m[ 83%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/ssl_cache.c[0m
+[0m[38;2;0;255;0;1m[ 83%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/pkcs11.c[0m
+[0m[38;2;0;255;0;1m[ 83%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/ecdsa.c[0m
+[0m[38;2;0;255;0;1m[ 83%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/x509.c[0m
+[0m[38;2;0;255;0;1m[ 84%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/pk.c[0m
+[0m[38;2;0;255;0;1m[ 84%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/ecdh.c[0m
+[0m[38;2;0;255;0;1m[ 84%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/psa_crypto_cipher.c[0m
+[0m[38;2;0;255;0;1m[ 84%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/arc4.c[0m
+[0m[38;2;0;255;0;1m[ 84%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/havege.c[0m
+[0m[38;2;0;255;0;1m[ 84%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/threading.c[0m
+[0m[38;2;0;255;0;1m[ 84%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/ccm.c[0m
+[0m[38;2;0;255;0;1m[ 84%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/entropy.c[0m
+[0m[38;2;0;255;0;1m[ 84%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/ssl_ciphersuites.c[0m
+[0m[38;2;0;255;0;1m[ 85%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/x509_create.c[0m
+[0m[38;2;0;255;0;1m[ 85%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/timing.c[0m
+[0m[38;2;0;255;0;1m[ 85%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/ssl_tls.c[0m
+[0m[38;2;0;255;0;1m[ 85%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/base64.c[0m
+[0m[38;2;0;255;0;1m[ 85%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/des.c[0m
+[0m[38;2;0;255;0;1m[ 85%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/psa_crypto_driver_wrappers.c[0m
+[0m[38;2;0;255;0;1m[ 86%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/aesni.c[0m
+[0m[38;2;0;255;0;1m[ 86%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/md5.c[0m
+[0m[38;2;0;255;0;1m[ 86%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/psa_crypto_rsa.c[0m
+[0m[38;2;0;255;0;1m[ 86%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/x509write_crt.c[0m
+[0m[38;2;0;255;0;1m[ 86%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/mps_reader.c[0m
+[0m[38;2;0;255;0;1m[ 86%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/md2.c[0m
+[0m[38;2;0;255;0;1m[ 87%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/psa_crypto_se.c[0m
+[0m[38;2;0;255;0;1m[ 87%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/cmac.c[0m
+[0m[38;2;0;255;0;1m[ 87%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/ssl_msg.c[0m
+[0m[38;2;0;255;0;1m[ 87%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/sha256.c[0m
+[0m[38;2;0;255;0;1m[ 87%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/pk_wrap.c[0m
+[0m[38;2;0;255;0;1m[ 87%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/x509write_csr.c[0m
+[0m[38;2;0;255;0;1m[ 88%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/bignum.c[0m
+[0m[38;2;0;255;0;1m[ 88%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/camellia.c[0m
+[0m[38;2;0;255;0;1m[ 88%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/ssl_tls13_keys.c[0m
+[0m[38;2;0;255;0;1m[ 88%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/psa_crypto_slot_management.c[0m
+[0m[38;2;0;255;0;1m[ 88%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/ssl_cli.c[0m
+[0m[38;2;0;255;0;1m[ 88%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/ecp_curves.c[0m
+[0m[38;2;0;255;0;1m[ 88%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/debug.c[0m
+[0m[38;2;0;255;0;1m[ 89%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/psa_crypto_mac.c[0m
+[0m[38;2;0;255;0;1m[ 89%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/mps_trace.c[0m
+[0m[38;2;0;255;0;1m[ 89%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/ssl_cookie.c[0m
+[0m[38;2;0;255;0;1m[ 89%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/memory_buffer_alloc.c[0m
+[0m[38;2;0;255;0;1m[ 89%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/ecp.c[0m
+[0m[38;2;0;255;0;1m[ 89%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/md4.c[0m
+[0m[38;2;0;255;0;1m[ 89%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/pkwrite.c[0m
+[0m[38;2;0;255;0;1m[ 90%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/pem.c[0m
+[0m[38;2;0;255;0;1m[ 90%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/asn1write.c[0m
+[0m[38;2;0;255;0;1m[ 90%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/ssl_ticket.c[0m
+[0m[38;2;0;255;0;1m[ 90%]:[0m cache compiling.debug components/net/protocols/mbedtls/mbedtls-v2.28.2/library/hmac_drbg.c[0m
+[0m[38;2;0;255;0;1m[ 90%]:[0m cache compiling.debug components/net/protocols/mbedtls/ports/src/tls_net.c[0m
+[0m[38;2;0;255;0;1m[ 91%]:[0m cache compiling.debug components/net/protocols/mbedtls/ports/src/timing_alt.c[0m
+[0m[38;2;0;255;0;1m[ 91%]:[0m cache compiling.debug components/net/protocols/mbedtls/ports/src/tls_hardware.c[0m
+[0m[38;2;0;255;0;1m[ 91%]:[0m cache compiling.debug components/net/protocols/ftp/ftplib-4.0-1/src/ftplib.c[0m
+[0m[38;2;0;255;0;1m[ 91%]:[0m [38;2;255;0;255;1marchiving.debug libvendor-drv.a[0m
+[0m[38;2;0;255;0;1m[ 93%]:[0m [38;2;255;0;255;1marchiving.debug libopen-drv.a[0m
+[0m[38;2;0;255;0;1m[ 93%]:[0m [38;2;255;0;255;1marchiving.debug libaudio.a[0m
+[0m[38;2;0;255;0;1m[ 93%]:[0m [38;2;255;0;255;1marchiving.debug libopencore-amr-0.1.6.a[0m
+[0m[38;2;0;255;0;1m[ 93%]:[0m [38;2;255;0;255;1marchiving.debug liblwip.a[0m
+[0m[38;2;0;255;0;1m[ 93%]:[0m [38;2;255;0;255;1marchiving.debug libdrv-oc.a[0m
+[0m[38;2;0;255;0;1m[ 93%]:[0m [38;2;255;0;255;1marchiving.debug libopen-app.a[0m
+[0m[38;2;0;255;0;1m[ 93%]:[0m [38;2;255;0;255;1marchiving.debug libopen-fs.a[0m
+[0m[38;2;0;255;0;1m[ 93%]:[0m [38;2;255;0;255;1marchiving.debug libopen-net.a[0m
+[0m[38;2;0;255;0;1m[ 93%]:[0m [38;2;255;0;255;1marchiving.debug libboard.a[0m
+[0m[38;2;0;255;0;1m[ 93%]:[0m [38;2;255;0;255;1marchiving.debug libhttp.a[0m
+[0m[38;2;0;255;0;1m[ 93%]:[0m [38;2;255;0;255;1marchiving.debug libopen-config.a[0m
+[0m[38;2;0;255;0;1m[ 93%]:[0m [38;2;255;0;255;1marchiving.debug libvo-amrwbenc-0.1.3.a[0m
+[0m[38;2;0;255;0;1m[ 93%]:[0m [38;2;255;0;255;1marchiving.debug libmain.a[0m
+[0m[38;2;0;255;0;1m[ 93%]:[0m [38;2;255;0;255;1marchiving.debug libmqtt.a[0m
+[0m[38;2;0;255;0;1m[ 95%]:[0m [38;2;255;0;255;1marchiving.debug libota.a[0m
+[0m[38;2;0;255;0;1m[ 95%]:[0m [38;2;255;0;255;1marchiving.debug libutilities.a[0m
+[0m[38;2;0;255;0;1m[ 95%]:[0m [38;2;255;0;255;1marchiving.debug libwebsocket.a[0m
+[0m[38;2;0;255;0;1m[ 95%]:[0m [38;2;255;0;255;1marchiving.debug libmbedtls.a[0m
+[0m[38;2;0;255;0;1m[ 95%]:[0m [38;2;255;0;255;1marchiving.debug libftp.a[0m
+[0m[38;2;0;255;0;1m[ 99%]:[0m [38;2;255;0;255;1mlinking.debug cpu-ap.elf[0m
+Load_File: /home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/bin/op-volte/ap/ap_ddr.bin size 454895 align to 454896
+Merge binary success: /home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/bin/op-volte/ap/zap.bin
+Ap Header Info:
+  ident:                0x46544349
+  crc:                  0x6e91ff0b
+  ver:                  0x00000000
+  totalSize:            0x00000000
+  cpuLoadAddr:          0x800fe800
+  cpuOffset:            0x00000028
+  cpuSize:              0x0008b6ec
+  cpuCrc:               0x02ce1a12
+  cpuEntry:             0x00008000
+  cpuFlag:              0x00000002
+
+Cp Header Info:
+  ident:                0x46544349
+  crc:                  0x3de21f38
+  ver:                  0x00000000
+  totalSize:            0x00108ac4
+  cpuLoadAddr:          0x80000000
+  cpuOffset:            0x00000048
+  cpuSize:              0x0007d368
+  cpuCrc:               0x8d44e56f
+  cpuEntry:             0xf5000000
+  cpuFlag:              0x00000002
+mkimage: Great, image size(678768) is within the range of the partition size(720896)
+mkimage success: /home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/bin/op-volte/ap/zknl.img
+Load_File: library/volte/cp/xcp.bin size 54610 align to 54612
+joint: Great, image size(1528184) is within the range of the partition size(2097152)
+joint success: /home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/bin/op-volte/ap/xknl.img
+
+                                             <<<< SECTIONS (UNIT: BYTE) >>>>
+NAME                            BASE (HEX)                      SIZE (HEX)                      SIZE (DEC)                      
+INTENAL_CODE                    0x00008000                      0x00004000                      16384                           
+INTENAL_DATA                    0x00010000                      0x00004000                      16384                           
+IRAM0_PSM_RE                    0xc0200800                      0x00002800                      10240                           
+IRAM2                           0xc026c800                      0x00013800                      79872                           
+XIP                             0xc8036800                      0x00200000                      2097152                         
+DRAM                            0x800fe800                      0x002fc800                      3131392                         
+APP_IMG                         0x803fb000                      0x00005000                      20480                           
+.itcm                           0x00008000                      0x3d30                          15664                           
+.dtcm                           0x00010000                      0x3f80                          16256                           
+.iram0_psm_re                   0xc0200800                      0x17e4                          6116                            
+.iram2                          0xc026c800                      0x13080                         77952                           
+.psram                          0x800fe800                      0x61b18                         400152                          
+.xip_text                       0xc8036800                      0x13f1f0                        1307120                         
+.xip_rodata                     0xc81759f0                      0x28788                         165768                          
+.data                           0x80160320                      0xd5cf                          54735                           
+.bss                            0x8016d900                      0x4bd20                         310560                          
+.malloc                         0x801b9620                      0x2419e0                        2365920                         
+
+                                             <<<< LIBS (UNIT: BYTE) >>>>
+NAME                            TEXT            TARGET          RODATA          TARGET          DATA            TARGET          DEBUG           OTHER           
+libopen-config.a                148             0               61              0               4               0               0               0               
+libboard.a                      1372            363             1080            29              648             300             0               0               
+libopencore-amr-0.1.6.a         139066          0               57596           0               0               0               0               0               
+libaudio.a                      8454            0               4464            0               181             0               0               0               
+libmbedtls.a                    26416           0               4738            0               8748            0               0               0               
+libopen-drv.a                   7940            0               3119            0               1020            0               0               0               
+libopen-net.a                   374             0               196             0               1               0               0               0               
+libhttp.a                       60              7470            256             2276            0               33              0               0               
+libmain.a                       4               0               0               0               0               0               0               0               
+libopen-fs.a                    1950            0               1107            0               0               0               0               0               
+libota.a                        3142            1008            577             271             0               0               0               0               
+libdrv-oc.a                     23022           0               1755            0               363             0               0               0               
+libopen-app.a                   7906            0               2799            0               89              0               0               0               
+libvo-amrwbenc-0.1.3.a          65422           0               2672            0               22954           0               0               0               
+liblwip.a                       108136          78141           6333            3304            60677           25157           0               0               
+libgcc.a                        13332           7717            376             338             0               0               0               0               
+libm_nano.a                     3962            14              720             8               0               0               0               0               
+libg_nano.a                     19312           15062           4052            3770            915             777             0               0               
+
+                                             <<<< TOTAL (UNIT: BYTE) >>>>
+NAME                            TEXT+RODATA     TARGET          DATA            TARGET          
+plat                            407450          45939           34923           1118            
+lwip                            114469          81445           60677           25157           
+ps                              0               0               0               0               
+
+[0m[38;2;0;255;0;1m[100%]:[0m [38;2;0;255;0;1mbuild ok, spent 28.106s[0m
+[0m[1;38;2;255;255;0;1mwarning: [38;2;255;255;0;1m"xmake build -w" option has been deprecated, the warning output has been enabled by default.[0m
+[0m[1;38;2;255;255;0;1mwarning: [38;2;255;255;0;1madd -v for getting more warnings ..[0m

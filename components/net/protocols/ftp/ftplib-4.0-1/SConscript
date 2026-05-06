@@ -1,0 +1,22 @@
+﻿import os
+import osconfig
+from build_tools import *
+
+pwd = PresentDir()
+CPPPATH=[]
+CPPDEFINES=[]
+
+src = Split('''
+src/ftplib.c
+''')
+
+CPPPATH += [pwd + '/inc']
+
+LOCAL_CCFLAGS = ' -DFTP_RTOS'
+
+if osconfig.CROSS_TOOL == 'keil':
+    LOCAL_CCFLAGS += ' --gnu'
+
+group = AddCodeGroup('ftplib', src, depend = ['NET_USING_FTPLIB'], CPPPATH = CPPPATH, LOCAL_CCFLAGS = LOCAL_CCFLAGS, CPPDEFINES = CPPDEFINES)
+
+Return('group')

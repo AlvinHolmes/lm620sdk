@@ -1,0 +1,15 @@
+toolchain repo commit: 888ab3acb2
+888ab3a scripts: use readelf instead of file to check elf is riscv
+ b4d37a35b133dc8f1d197fac27baf3180c49b5d3 binutils (b4d37a35)
+ 4b1aeb8672be74417f1b5f6a5683a0cf9071b39b dejagnu (4b1aeb8)
+ b12706a397b22c29cf32f03f70c1e1fbf6a7e14d gcc (b12706a39)
+ bbe110c1e42e06d8f322794d2922f9eebecebc18 gdb (bbe110c1)
+ 63dbbc5c52f9823f86270f32fce20d1e91cdf484 glibc (63dbbc5c)
+ 657e6b77fd825e79481f53aaf012b542c2baf1fd llvm (657e6b77f)
+ 85e0e3519655220688e757b9d5bfd314923548bd musl (85e0e35)
+ cbebc4b9010f13d9a84066f5fce8ddd99bb57b75 newlib (cbebc4b)
+ 2efabd3e6604b8a9e8f70baf52f57696680c7855 pk (2efabd3)
+ ff7a9ec7c57f33a9b6f31f64b1180c0cdf5d8dab qemu (ff7a9ec7)
+ a0298a33e7b2091ba8d9f3a20838d96dc1164cac spike (a0298a3)
+libncrt repo commit: c31561de81
+c31561d ci: bump sdkbuild to 2024.02.18

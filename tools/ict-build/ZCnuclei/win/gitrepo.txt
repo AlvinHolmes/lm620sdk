@@ -1,0 +1,15 @@
+toolchain repo commit: ba27fcfeff
+ba27fcf doc: update doc for nuclei toolchain
+ a046e8692b746cde9994241c59fef6c9b6585446 binutils (a046e869)
+ 4b1aeb8672be74417f1b5f6a5683a0cf9071b39b dejagnu (4b1aeb8)
+ bedea461d7d4205f8748a2f07b5cd7a7355b8cf4 gcc (bedea461d)
+ d03e61c91e46bffc57c3b511f48a10a400ec6297 gdb (d03e61c9)
+ c8cb4d2b86ece572793e31a3422ea29e88d77df5 glibc (c8cb4d2b)
+ 657e6b77fd825e79481f53aaf012b542c2baf1fd llvm (657e6b77f)
+ 85e0e3519655220688e757b9d5bfd314923548bd musl (85e0e35)
+ cbebc4b9010f13d9a84066f5fce8ddd99bb57b75 newlib (cbebc4b)
+ 4f3debe4d04f56d31089c1c716a27e2d5245e9a1 pk (heads/master)
+ 8fc2bff2b01df66dc7deacc598da451e5c198579 qemu (nuclei-2024.06)
+ 0c706923b9109d9f3c9422a2aabff70c08c954ed spike (heads/master)
+libncrt repo commit: 7cfe22daf9
+7cfe22d ci: bump sdkbuild to 2024.06.26

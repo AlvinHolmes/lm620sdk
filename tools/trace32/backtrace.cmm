@@ -1,0 +1,67 @@
+; --------------------------------------------------------------------------------
+; @Title: ICT2110 Ramdump Script
+; @Description:
+; ICT2110 TRACE32 脚本
+; @Copyright: (C) 2022 Innochip-Tech.
+; --------------------------------------------------------------------------------
+
+ENTRY &stack_start &stack_end
+
+IF !sYmbol.EXIST(g_osThreadList)
+(
+  PRINT "<no symbol>"
+  ENDDO
+)
+
+IF (&stack_start==0)||(&stack_end==0)||(&stack_start>=&stack_end)
+(
+  PRINT "<invalid addr>"
+  ENDDO
+)
+
+&point_len=Var.Value(sizeof(void*))
+
+PRINT "==================================== BACK TRACE =========================================="
+
+WHILE &stack_start<&stack_end
+(
+  &stack_value=Data.Long(D:&stack_start)
+  &func_name=sYmbol.FUNCTION(P:&stack_value)
+  IF "&func_name"!=""
+  (
+      &instr1=Data.Byte(P:(&stack_value-0x4))
+      IF (&instr1==0xef)||(&instr1==0xe7)||(&instr1==0x67)
+      (
+        PRINTF "%32s     ADDR:0x%08x -> 0x%08x"   STRing.SPLIT("&func_name","\",-1)  &stack_start  &stack_value
+      )
+      ELSE
+      (
+        &instr2=Data.Short(P:(&stack_value-0x2))
+        &op=(&instr2)&(0x0003)
+        IF &op==0x01
+        (
+            &imm=(&instr2)&(0x1FFC)
+            &fun=(&instr2)&(0xE000)
+            IF (&imm!=0x0)&&(&fun==0x2000)
+            (
+              PRINTF "%32s     ADDR:0x%08x -> 0x%08x"   STRing.SPLIT("&func_name","\",-1)  &stack_start  &stack_value
+            )
+        )
+        ELSE
+        (
+            IF &op==0x02
+            (
+                &rs1=(&instr2)&(0x0F80)
+                &fun=(&instr2)&(0xE000)
+                IF (&rs1!=0x0)&&(&fun==0x8000)
+                (
+                  PRINTF "%32s     ADDR:0x%08x -> 0x%08x"   STRing.SPLIT("&func_name","\",-1)  &stack_start  &stack_value
+                )
+            )
+        )
+      )
+  )
+  &stack_start=&stack_start+&point_len
+)
+
+ENDDO

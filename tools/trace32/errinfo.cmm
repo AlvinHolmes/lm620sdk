@@ -1,0 +1,138 @@
+; --------------------------------------------------------------------------------
+; @Title: ICT2110 Ramdump Script
+; @Description:
+; ICT2110 TRACE32 脚本
+; @Copyright: (C) 2022 Innochip-Tech genanfeng.
+; --------------------------------------------------------------------------------
+
+&info="Unknown fault"
+
+IF !sYmbol.EXIST(g_osAssert)
+(
+  PRINT "<no symbol g_osAssert>"
+  &info="NO g_osAssert"
+  ENDDO "&info"
+  RETURN
+)
+
+LOCAL &core_id
+LOCAl &core
+LOCAL &file
+LOCAL &line
+LOCAL &pc
+
+&core_id=Var.Value(g_osAssert->core)
+
+IF (&core_id==1)||(&core_id==2)
+(
+  IF (&core_id==1)
+  (
+    &core="AP"
+  )
+  IF (&core_id==2)
+  (
+    &core="CP"
+  )
+
+  &file=Var.STRing(g_osAssert->file)
+  &line=Var.Value(g_osAssert->line)
+  &pc=Var.Value(g_osAssert->pc)
+
+  SPRINTF &info "&core Assert. File: &file.c, Line: %d, PC: &pc" &line
+
+  ENDDO "&info"
+  RETURN
+)
+
+IF !sYmbol.EXIST(g_osException)
+(
+  PRINT "<no symbol g_osException>"
+  &info="NO g_osException"
+  ENDDO "&info"
+  RETURN
+)
+
+&core_id=Var.Value(g_osException->core)
+
+LOCAl &mcause_type
+LOCAl &mdcause_type
+LOCAL &mtval
+
+&mcause_type="Unknown fault"
+&mdcause_type="Unknown"
+
+IF (&core_id!=1)&&(&core_id!=2)
+(
+  &info="core_id fault"
+  ENDDO "&info"
+  RETURN
+)
+
+IF (&core_id==1)
+(
+  &core="AP"
+)
+
+IF (&core_id==2)
+(
+  &core="CP"
+)
+
+&mcause=Var.Value(g_osException->mcause)
+&mcause=&mcause&0x1f
+
+IF (&mcause==0)
+(
+  &mcause_type="Instruction address misaligned"
+)
+IF (&mcause==1)
+(
+  &mcause_type="Instruction access fault"
+)
+IF (&mcause==2)
+(
+  &mcause_type="Illegal instruction"
+)
+IF (&mcause==3)
+(
+  &mcause_type="Breakpoint"
+)
+IF (&mcause==4)
+(
+  &mcause_type="Load address misaligned"
+)
+IF (&mcause==5)
+(
+  &mcause_type="Load access fault"
+)
+IF (&mcause==6)
+(
+  &mcause_type="Store/AMO address misaligned"
+)
+IF (&mcause==7)
+(
+  &mcause_type="Store/AMO access fault"
+)
+
+&mdcause=Var.Value(g_osException->mdcause)
+&mdcause=&mdcause&0x3
+
+IF (&mdcause==1)
+(
+  &mdcause_type="PMP"
+)
+IF (&mdcause==2)
+(
+  &mdcause_type="Bus"
+)
+IF (&mdcause==3)
+(
+  &mdcause_type="NICE long instruction"
+)
+
+&pc=Var.Value(g_osException->mepc)
+&mtval=Var.Value(g_osException->mtval)
+
+&info="&core Exception: &mcause_type(&mdcause_type). PC: &pc, Access Addr: &mtval"
+
+ENDDO "&info"

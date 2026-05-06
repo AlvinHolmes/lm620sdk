@@ -1,0 +1,1 @@
+mkimage.exe --acpu=ux600.bin --acpuLoadAddr=0x24000000 --acpuEntry=0x24000000 --acpuCompress --acpuMultiSections --pcpu=bx1.bin --pcpuLoadAddr=0x26000000 --pcpuEntry=0x26000000 --pcpuCompress --pcpuMultiSections --output=kernel.img

@@ -1,0 +1,137 @@
+; --------------------------------------------------------------------------------
+; @Title: ICT2110 Ramdump Script
+; @Description:
+; ICT2110 TRACE32 ½Å±¾
+; @Copyright: (C) 2022 Innochip-Tech.
+; --------------------------------------------------------------------------------
+
+ENTRY &memheap
+
+LOCAL &pool0 &pool1 &size0 &size1 &total &max_used &used &user_used &mina &maxa &bitmap &i &min_shift &alloc_cnt &max_alloc_cnt &max_size
+
+&pool0=Var.Value((&((memHeap_t*)&memheap)->mem_pool[0]))
+&pool1=Var.Value((&((memHeap_t*)&memheap)->mem_pool[1]))
+
+&size0=Var.Value(((memPool_t*)&pool0)->end)-Var.Value(((memPool_t*)&pool0)->start)
+&size1=Var.Value(((memPool_t*)&pool1)->end)-Var.Value(((memPool_t*)&pool1)->start)
+
+&total=&size0+&size1
+&max_used=Var.Value(((memPool_t*)&pool0)->max_used)+Var.Value(((memPool_t*)&pool1)->max_used)
+&used=Var.Value(((memPool_t*)&pool0)->used)+Var.Value(((memPool_t*)&pool1)->used)
+&user_used=Var.Value(((memPool_t*)&pool0)->user_used)+Var.Value(((memPool_t*)&pool1)->user_used)
+&mina=Var.Value(((memHeap_t*)&memheap)->min_alloc)
+&maxa=Var.Value(((memHeap_t*)&memheap)->max_alloc)
+PRINTF "memHeap: total = %06d, max used = %06d, used = %06d, user_used = %06d, size: [%d ~ %d]" &total &max_used &used &user_used &mina &maxa
+PRINTF "         max used rate = %d%%, used rate = %d%%, user used rate = %d%%", &max_used*0x64/&total, &used*0x64/&total, &user_used*0x64/&total
+
+&max_size=Var.Value(((memPool_t*)&pool1)->max_size)
+
+IF &max_size!=0
+(
+	&max_used=Var.Value(((memPool_t*)&pool1)->max_used)
+	&used=Var.Value(((memPool_t*)&pool1)->used)
+	&user_used=Var.Value(((memPool_t*)&pool1)->user_used)
+	&bitmap=Var.Value(((memPool_t*)&pool1)->free_bitmap)
+	PRINTF "smlPool: total = %06d, max used = %06d, used = %06d, user_used = %06d, bitmap: %08X" &size1 &max_used &used &user_used &bitmap
+	PRINTF "         max used rate = %d%%, used rate = %d%%, user used rate = %d%%", &max_used*0x64/&size1, &used*0x64/&size1, &user_used*0x64/&size1
+)
+
+&max_used=Var.Value(((memPool_t*)&pool0)->max_used)
+&used=Var.Value(((memPool_t*)&pool0)->used)
+&user_used=Var.Value(((memPool_t*)&pool0)->user_used)
+&bitmap=Var.Value(((memPool_t*)&pool0)->free_bitmap)
+PRINTF "bigPool: total = %06d, max used = %06d, used = %06d, user_used = %06d, bitmap: %08X" &size0 &max_used &used &user_used, &bitmap
+PRINTF "         max used rate = %d%%, used rate = %d%%, user used rate = %d%%", &max_used*0x64/&size0, &used*0x64/&size0, &user_used*0x64/&size0
+
+IF &max_size!=0
+(
+	PRINT "=================== Small Pool Alloc Info =================="
+	&i=0
+	&min_shift=Var.Value(((memPool_t*)&pool1)->min_shift)
+	WHILE &i<0x20
+	(
+		&alloc_cnt=Var.Value(((memPool_t*)&pool1)->alloc_cnt[&i])
+		&max_alloc_cnt=Var.Value(((memPool_t*)&pool1)->max_alloc_cnt[&i])
+		IF &max_alloc_cnt!=0
+		(
+			PRINTF "alloc size[%05d] times: %d, max times: %d" (&i+1)<<&min_shift &alloc_cnt &max_alloc_cnt
+		)
+		&i=&i+1
+	)
+
+)
+
+PRINT "==================== Big Pool Alloc Info ==================="
+&i=0
+&min_shift=Var.Value(((memPool_t*)&pool0)->min_shift)
+WHILE &i<0x20
+(
+	&alloc_cnt=Var.Value(((memPool_t*)&pool0)->alloc_cnt[&i])
+	&max_alloc_cnt=Var.Value(((memPool_t*)&pool1)->max_alloc_cnt[&i])
+	IF &max_alloc_cnt!=0
+	(
+		PRINTF "alloc size[%05d] times: %d, max times: %d" (&i+1)<<&min_shift &alloc_cnt &max_alloc_cnt
+	)
+	&i=&i+1
+)
+
+IF !sYmbol.EXIST(osMallocTrace)	
+(
+	ENDDO
+)
+
+IF &max_size!=0
+(
+	PRINT "=================== Small Pool Leak Info ==================="
+	PRINT "file(.c)          line        size        user        addr"
+	GOSUB print_smallheap_pool &pool1
+)
+
+PRINT "==================== Big Pool Leak Info ===================="
+PRINT "file(.c)          line        size        user        addr"
+GOSUB print_smallheap_pool &pool0
+
+ENDDO
+
+print_smallheap_pool:
+	ENTRY &mempool
+	LOCAL &unit
+	LOCAL &end
+
+	&unit=Var.Value(((memPool_t*)&mempool)->start)
+	&end=Var.Value(((memPool_t*)&mempool)->end)
+
+	WHILE &unit<&end
+	(
+		&cur_size=Var.Value(((memUnit_t*)&unit)->cur_size)
+
+		IF (&cur_size&0x8000)!=0
+		(
+			LOCAL &file &line &size &user &addr
+
+			&file=Var.STRing(((memUnit_t*)&unit)->file)
+			&line=Var.Value(((memUnit_t*)&unit)->line)
+			&size=Var.Value(((memUnit_t*)&unit)->size)
+			IF (Var.Value(((memUnit_t*)&unit)->user)>0xFF)
+			(
+				&user=Var.STRing((char *)((memUnit_t*)&unit)->user)
+				PRINTF "%-16s  %-10lu  %-10hu  %-10s  0x%-10x " "&file" &line &size "&user" &unit
+			)
+			ELSE
+			(
+				IF (Var.Value(((memUnit_t*)&unit)->user)==0)
+				(
+					&user="No Name"
+					PRINTF "%-16s  %-10lu  %-10hu  %-10s 0x%-10x " "&file" &line &size "&user" &unit
+				)
+				ELSE
+				(
+					PRINTF "%-16s  %-10lu  %-10hu  irq%-7lu  0x%-10x " "&file" &line &size Var.Value(((memUnit_t*)&unit)->user) &unit
+				)
+			)
+			&cur_size=&cur_size&0x7FFF
+		)
+
+		&unit=&unit+&cur_size
+	)
+	RETURN

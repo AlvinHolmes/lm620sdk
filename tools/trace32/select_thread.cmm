@@ -1,0 +1,78 @@
+; --------------------------------------------------------------------------------
+; @Title: ICT2110 Ramdump Script
+; @Description:
+; ICT2110 TRACE32 脚本
+; @Copyright: (C) 2022 Innochip-Tech.
+; --------------------------------------------------------------------------------
+
+
+LOCAL &select_thread_struct
+
+IF !sYmbol.EXIST(g_osThreadList)
+(
+  PRINT "<no symbol>"
+  ENDDO
+)
+
+&thread_list=""
+
+&thread_head=Var.Value((void*)&g_osThreadList)
+&thread_next=Var.Value((void*)g_osThreadList.next)
+&thread_offset=Var.Value(&((osThread_t)0x0)->resource_node)
+
+WHILE &thread_head!=&thread_next
+(
+  &thread_struct=&thread_next-&thread_offset
+  &name=Var.String(((osThread_t)&thread_struct)->name)
+  IF ("&thread_list"=="")
+    &thread_list="&name"
+  ELSE
+    &thread_list="&thread_list,&name"
+  &thread_next=Var.Value((void*)((osThread_t)&thread_struct)->resource_node.next)
+)
+
+
+DIALOG
+(
+  HEADER "Select Thread"
+  
+  POS 0. 0. 27. 1.
+  THREAD_LIST:    DYNPULLDOWN ",,," "CONTinue"
+)
+
+;set default selections
+DIALOG.Set THREAD_LIST "idle" "&thread_list"
+;STOP command halts script execution 
+  STOP
+
+;script will continue here when "OK" button is clicked
+
+;get selection
+  &select_thread=DIALOG.STRING(THREAD_LIST);
+;print result
+
+  &thread_head=Var.Value((void*)&g_osThreadList)
+  &thread_next=Var.Value((void*)g_osThreadList.next)
+  &thread_offset=Var.Value(&((osThread_t)0x0)->resource_node)
+
+  WHILE &thread_head!=&thread_next
+  (
+    &thread_struct=&thread_next-&thread_offset
+    &name=Var.String(((osThread_t)&thread_struct)->name)
+    IF ("&name"=="&select_thread")
+	(
+	  &select_thread_struct=&thread_struct
+      BREAK
+	)
+    &thread_next=Var.Value((void*)((osThread_t)&thread_struct)->resource_node.next)
+  )
+
+;close dialog window  
+  DIALOG.END
+
+ENDDO &select_thread_struct
+
+;script continues here when Cancel is clicked"
+cancel:
+  DIALOG.END
+ENDDO

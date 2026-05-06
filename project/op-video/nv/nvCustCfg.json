@@ -1,0 +1,77 @@
+{
+    "NV_DrvConfig": {
+        "NV_DrvConfig": {
+            "exceptReset": {
+                "kind": "BaseType",
+                "type": "unsigned char",
+                "value": 0,
+                "offset": 0,
+                "FLAG": true
+            },
+            "watchDog": {
+                "kind": "BaseType",
+                "type": "unsigned char",
+                "value": 0,
+                "offset": 2,
+                "FLAG": true
+            },
+            "uiccHotPlug": {
+                "kind": "BaseType",
+                "type": "unsigned char",
+                "value": 1,
+                "offset": 3,
+                "FLAG": true
+            }
+        }
+    },
+    "S_Ps_Dev_NV_PsData": {
+        "S_Ps_Dev_NV_PsData": {
+            "tUserSetInfo": {
+                "tBitSet": {
+                    "bUeMode": {
+                        "kind": "BITS",
+                        "type": "unsigned char",
+                        "value": 1,
+                        "offset": 1147,
+                        "bit-offset": 4,
+                        "bit-len": 2,
+                        "FLAG": true
+                    }
+                }
+            }
+        }
+    },
+    "S_Ps_Dev_NV_PsRo": {
+        "S_Ps_Dev_NV_PsRo": {
+            "tUeCapa": {
+                "bProfile_0001": {
+                    "kind": "BITS",
+                    "type": "unsigned char",
+                    "value": 1,
+                    "offset": 5,
+                    "bit-offset": 1,
+                    "bit-len": 1,
+                    "FLAG": true
+                },
+                "bProfile_0002": {
+                    "kind": "BITS",
+                    "type": "unsigned char",
+                    "value": 1,
+                    "offset": 5,
+                    "bit-offset": 2,
+                    "bit-len": 1,
+                    "FLAG": true
+                },
+                "bFeaturGrpInd29": {
+                    "kind": "BITS",
+                    "type": "unsigned char",
+                    "value": 1,
+                    "offset": 4,
+                    "bit-offset": 0,
+                    "bit-len": 1,
+                    "FLAG": true
+                }
+            }
+        }
+    }
+}

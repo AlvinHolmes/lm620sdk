@@ -1,0 +1,8 @@
+﻿menu "ftplib-v4.0.1"
+
+config NET_USING_FTPLIB
+	bool "Enable Ftplib"
+	select NET_USING_BSD
+	default n
+
+endmenu
