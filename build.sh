@@ -536,6 +536,7 @@ while true; do
         clean_build
         build_ict_boot
         xmake -r -w $BUILD_ARG | tee build_ap.log; judge_run_pipe_result;
+        xmake project -k compile_commands; judge_run_result;
         copy_ict_version
         build_ict_nv
         build_ict_nvupdater
@@ -548,6 +549,7 @@ while true; do
 		clean_build
 		build_ict_boot
 		xmake f --mini=y; xmake -r -w $BUILD_ARG | tee build_ap.log; judge_run_pipe_result;
+        xmake project -k compile_commands; judge_run_result;
 		build_ict_dlmodule
 		copy_ict_version
 		build_ict_nv
@@ -558,6 +560,7 @@ while true; do
     ap )
         pre_build
         xmake $BUILD_ARG -w | tee build_ap.log; judge_run_pipe_result;
+        xmake project -k compile_commands; judge_run_result;
         copy_ict_version
         build_ict_nv
         build_ict_nvupdater
