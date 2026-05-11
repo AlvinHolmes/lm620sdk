@@ -1,428 +1,418 @@
 {
     ["tool_target_lwip_cross_risc-v_cc"] = {
-        toolname = "gcc",
         program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
         toolchain_info = {
-            arch = "risc-v",
             plat = "cross",
             name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "gcc"
+    },
+    ["tool_target_open-fs_cross_risc-v_ar"] = {
+        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
+        toolchain_info = {
+            plat = "cross",
+            name = "ZCrisc-v_gcc",
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "ar"
+    },
+    ["tool_target_cpu-ap.elf_cross_risc-v_ld"] = {
+        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-gcc",
+        toolchain_info = {
+            plat = "cross",
+            name = "ZCrisc-v_gcc",
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "gcc"
+    },
+    ["tool_target_vo-amrwbenc-0.1.3_cross_risc-v_cc"] = {
+        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
+        toolchain_info = {
+            plat = "cross",
+            name = "ZCrisc-v_gcc",
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "gcc"
+    },
+    ["tool_target_mqtt_cross_risc-v_ar"] = {
+        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
+        toolchain_info = {
+            plat = "cross",
+            name = "ZCrisc-v_gcc",
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "ar"
+    },
+    ["tool_target_http_cross_risc-v_cc"] = {
+        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
+        toolchain_info = {
+            plat = "cross",
+            name = "ZCrisc-v_gcc",
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "gcc"
+    },
+    ["tool_target_open-drv_cross_risc-v_ar"] = {
+        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
+        toolchain_info = {
+            plat = "cross",
+            name = "ZCrisc-v_gcc",
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "ar"
+    },
+    ["tool_target_lwip_cross_risc-v_ar"] = {
+        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
+        toolchain_info = {
+            plat = "cross",
+            name = "ZCrisc-v_gcc",
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "ar"
+    },
+    ["tool_target_mqtt_cross_risc-v_cc"] = {
+        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
+        toolchain_info = {
+            plat = "cross",
+            name = "ZCrisc-v_gcc",
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "gcc"
+    },
+    ["tool_target_mbedtls_cross_risc-v_cc"] = {
+        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
+        toolchain_info = {
+            plat = "cross",
+            name = "ZCrisc-v_gcc",
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "gcc"
+    },
+    ["tool_target_main_cross_risc-v_ar"] = {
+        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
+        toolchain_info = {
+            plat = "cross",
+            name = "ZCrisc-v_gcc",
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "ar"
+    },
+    ["tool_target_audio_cross_risc-v_cc"] = {
+        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
+        toolchain_info = {
+            plat = "cross",
+            name = "ZCrisc-v_gcc",
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "gcc"
+    },
+    ["tool_target_open-net_cross_risc-v_ar"] = {
+        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
+        toolchain_info = {
+            plat = "cross",
+            name = "ZCrisc-v_gcc",
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "ar"
     },
     ["ZCrisc-v_gcc_arch_risc-v_plat_cross"] = {
-        arch = "risc-v",
-        plat = "cross",
+        cross = "riscv64-unknown-elf-",
         bindir = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin",
+        plat = "cross",
         sdkdir = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux",
-        cross = "riscv64-unknown-elf-"
+        arch = "risc-v"
     },
     ["tool_target_cpu-ap.elf_cross_risc-v_objcopy"] = {
         program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-objcopy",
         toolchain_info = {
-            arch = "risc-v",
             plat = "cross",
             name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
-    },
-    ["tool_target_open-fs_cross_risc-v_cc"] = {
-        toolname = "gcc",
-        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
-        toolchain_info = {
-            arch = "risc-v",
-            plat = "cross",
-            name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
-    },
-    ["tool_target_ota_cross_risc-v_cc"] = {
-        toolname = "gcc",
-        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
-        toolchain_info = {
-            arch = "risc-v",
-            plat = "cross",
-            name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
-    },
-    ["tool_target_http_cross_risc-v_ar"] = {
-        toolname = "ar",
-        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
-        toolchain_info = {
-            arch = "risc-v",
-            plat = "cross",
-            name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
-    },
-    ["tool_target_vo-amrwbenc-0.1.3_cross_risc-v_ar"] = {
-        toolname = "ar",
-        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
-        toolchain_info = {
-            arch = "risc-v",
-            plat = "cross",
-            name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
-    },
-    ["tool_target_open-config_cross_risc-v_cc"] = {
-        toolname = "gcc",
-        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
-        toolchain_info = {
-            arch = "risc-v",
-            plat = "cross",
-            name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
-    },
-    ["tool_target_open-app_cross_risc-v_cc"] = {
-        toolname = "gcc",
-        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
-        toolchain_info = {
-            arch = "risc-v",
-            plat = "cross",
-            name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
-    },
-    ["tool_target_audio_cross_risc-v_cc"] = {
-        toolname = "gcc",
-        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
-        toolchain_info = {
-            arch = "risc-v",
-            plat = "cross",
-            name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
-    },
-    ["tool_target_opencore-amr-0.1.6_cross_risc-v_cxx"] = {
-        toolname = "gxx",
-        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-g++",
-        toolchain_info = {
-            arch = "risc-v",
-            plat = "cross",
-            name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
-    },
-    ["tool_target_opencore-amr-0.1.6_cross_risc-v_ar"] = {
-        toolname = "ar",
-        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
-        toolchain_info = {
-            arch = "risc-v",
-            plat = "cross",
-            name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
-    },
-    ["tool_target_cpu-ap.elf_cross_risc-v_cc"] = {
-        toolname = "gcc",
-        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
-        toolchain_info = {
-            arch = "risc-v",
-            plat = "cross",
-            name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
-    },
-    ["tool_target_main_cross_risc-v_ar"] = {
-        toolname = "ar",
-        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
-        toolchain_info = {
-            arch = "risc-v",
-            plat = "cross",
-            name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
-    },
-    ["tool_target_board_cross_risc-v_ar"] = {
-        toolname = "ar",
-        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
-        toolchain_info = {
-            arch = "risc-v",
-            plat = "cross",
-            name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
-    },
-    ["tool_target_open-net_cross_risc-v_ar"] = {
-        toolname = "ar",
-        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
-        toolchain_info = {
-            arch = "risc-v",
-            plat = "cross",
-            name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
-    },
-    ["tool_target_ota_cross_risc-v_ar"] = {
-        toolname = "ar",
-        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
-        toolchain_info = {
-            arch = "risc-v",
-            plat = "cross",
-            name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
-    },
-    ["tool_target_open-fs_cross_risc-v_ar"] = {
-        toolname = "ar",
-        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
-        toolchain_info = {
-            arch = "risc-v",
-            plat = "cross",
-            name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
-    },
-    ["tool_target_vendor-drv_cross_risc-v_ar"] = {
-        toolname = "ar",
-        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
-        toolchain_info = {
-            arch = "risc-v",
-            plat = "cross",
-            name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
-    },
-    ["tool_target_drv-oc_cross_risc-v_ar"] = {
-        toolname = "ar",
-        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
-        toolchain_info = {
-            arch = "risc-v",
-            plat = "cross",
-            name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
-    },
-    ["tool_target_utilities_cross_risc-v_ar"] = {
-        toolname = "ar",
-        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
-        toolchain_info = {
-            arch = "risc-v",
-            plat = "cross",
-            name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
-    },
-    ["tool_target_ftp_cross_risc-v_cc"] = {
-        toolname = "gcc",
-        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
-        toolchain_info = {
-            arch = "risc-v",
-            plat = "cross",
-            name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
-    },
-    ["tool_target_utilities_cross_risc-v_cc"] = {
-        toolname = "gcc",
-        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
-        toolchain_info = {
-            arch = "risc-v",
-            plat = "cross",
-            name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
-    },
-    ["tool_target_drv-oc_cross_risc-v_cc"] = {
-        toolname = "gcc",
-        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
-        toolchain_info = {
-            arch = "risc-v",
-            plat = "cross",
-            name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
         }
     },
     ["tool_target_open-drv_cross_risc-v_cc"] = {
-        toolname = "gcc",
         program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
         toolchain_info = {
-            arch = "risc-v",
             plat = "cross",
             name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "gcc"
     },
-    ["tool_target_board_cross_risc-v_cc"] = {
-        toolname = "gcc",
+    ["tool_target_ota_cross_risc-v_cc"] = {
         program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
         toolchain_info = {
-            arch = "risc-v",
             plat = "cross",
             name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
-    },
-    ["tool_target_open-config_cross_risc-v_ar"] = {
-        toolname = "ar",
-        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
-        toolchain_info = {
-            arch = "risc-v",
-            plat = "cross",
-            name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
-    },
-    ["tool_target_mbedtls_cross_risc-v_ar"] = {
-        toolname = "ar",
-        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
-        toolchain_info = {
-            arch = "risc-v",
-            plat = "cross",
-            name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
-    },
-    ["tool_target_mqtt_cross_risc-v_ar"] = {
-        toolname = "ar",
-        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
-        toolchain_info = {
-            arch = "risc-v",
-            plat = "cross",
-            name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "gcc"
     },
     ["tool_target_open-app_cross_risc-v_ar"] = {
-        toolname = "ar",
         program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
         toolchain_info = {
-            arch = "risc-v",
             plat = "cross",
             name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "ar"
     },
-    ["tool_target_cpu-ap.elf_cross_risc-v_ld"] = {
-        toolname = "gcc",
-        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-gcc",
-        toolchain_info = {
-            arch = "risc-v",
-            plat = "cross",
-            name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
-    },
-    ["tool_target_mqtt_cross_risc-v_cc"] = {
-        toolname = "gcc",
-        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
-        toolchain_info = {
-            arch = "risc-v",
-            plat = "cross",
-            name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
-    },
-    ["tool_target_lwip_cross_risc-v_ar"] = {
-        toolname = "ar",
+    ["tool_target_board_cross_risc-v_ar"] = {
         program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
         toolchain_info = {
-            arch = "risc-v",
             plat = "cross",
             name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
-    },
-    ["tool_target_main_cross_risc-v_cc"] = {
-        toolname = "gcc",
-        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
-        toolchain_info = {
-            arch = "risc-v",
-            plat = "cross",
-            name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
-    },
-    ["tool_target_audio_cross_risc-v_ar"] = {
-        toolname = "ar",
-        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
-        toolchain_info = {
-            arch = "risc-v",
-            plat = "cross",
-            name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "ar"
     },
     ["tool_target_websocket_cross_risc-v_ar"] = {
-        toolname = "ar",
         program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
         toolchain_info = {
-            arch = "risc-v",
             plat = "cross",
             name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "ar"
     },
-    ["tool_target_websocket_cross_risc-v_cc"] = {
-        toolname = "gcc",
-        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
-        toolchain_info = {
-            arch = "risc-v",
-            plat = "cross",
-            name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
-    },
-    ["tool_target_vo-amrwbenc-0.1.3_cross_risc-v_cc"] = {
-        toolname = "gcc",
-        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
-        toolchain_info = {
-            arch = "risc-v",
-            plat = "cross",
-            name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
-    },
-    ["tool_target_http_cross_risc-v_cc"] = {
-        toolname = "gcc",
-        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
-        toolchain_info = {
-            arch = "risc-v",
-            plat = "cross",
-            name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
-    },
-    ["tool_target_mbedtls_cross_risc-v_cc"] = {
-        toolname = "gcc",
-        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
-        toolchain_info = {
-            arch = "risc-v",
-            plat = "cross",
-            name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
-    },
-    ["tool_target_open-net_cross_risc-v_cc"] = {
-        toolname = "gcc",
-        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
-        toolchain_info = {
-            arch = "risc-v",
-            plat = "cross",
-            name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
-    },
-    ["tool_target_open-drv_cross_risc-v_ar"] = {
-        toolname = "ar",
+    ["tool_target_ota_cross_risc-v_ar"] = {
         program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
         toolchain_info = {
-            arch = "risc-v",
             plat = "cross",
             name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "ar"
+    },
+    ["tool_target_audio_cross_risc-v_ar"] = {
+        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
+        toolchain_info = {
+            plat = "cross",
+            name = "ZCrisc-v_gcc",
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "ar"
+    },
+    ["tool_target_open-config_cross_risc-v_ar"] = {
+        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
+        toolchain_info = {
+            plat = "cross",
+            name = "ZCrisc-v_gcc",
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "ar"
+    },
+    ["tool_target_utilities_cross_risc-v_cc"] = {
+        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
+        toolchain_info = {
+            plat = "cross",
+            name = "ZCrisc-v_gcc",
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "gcc"
+    },
+    ["tool_target_cpu-ap.elf_cross_risc-v_cc"] = {
+        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
+        toolchain_info = {
+            plat = "cross",
+            name = "ZCrisc-v_gcc",
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "gcc"
+    },
+    ["tool_target_drv-oc_cross_risc-v_cc"] = {
+        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
+        toolchain_info = {
+            plat = "cross",
+            name = "ZCrisc-v_gcc",
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "gcc"
+    },
+    ["tool_target_board_cross_risc-v_cc"] = {
+        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
+        toolchain_info = {
+            plat = "cross",
+            name = "ZCrisc-v_gcc",
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "gcc"
+    },
+    ["tool_target_vo-amrwbenc-0.1.3_cross_risc-v_ar"] = {
+        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
+        toolchain_info = {
+            plat = "cross",
+            name = "ZCrisc-v_gcc",
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "ar"
     },
     ["tool_target_ftp_cross_risc-v_ar"] = {
-        toolname = "ar",
         program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
         toolchain_info = {
-            arch = "risc-v",
             plat = "cross",
             name = "ZCrisc-v_gcc",
-            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross"
-        }
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "ar"
+    },
+    ["tool_target_websocket_cross_risc-v_cc"] = {
+        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
+        toolchain_info = {
+            plat = "cross",
+            name = "ZCrisc-v_gcc",
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "gcc"
+    },
+    ["tool_target_ftp_cross_risc-v_cc"] = {
+        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
+        toolchain_info = {
+            plat = "cross",
+            name = "ZCrisc-v_gcc",
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "gcc"
+    },
+    ["tool_target_http_cross_risc-v_ar"] = {
+        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
+        toolchain_info = {
+            plat = "cross",
+            name = "ZCrisc-v_gcc",
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "ar"
+    },
+    ["tool_target_opencore-amr-0.1.6_cross_risc-v_cxx"] = {
+        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-g++",
+        toolchain_info = {
+            plat = "cross",
+            name = "ZCrisc-v_gcc",
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "gxx"
+    },
+    ["tool_target_main_cross_risc-v_cc"] = {
+        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
+        toolchain_info = {
+            plat = "cross",
+            name = "ZCrisc-v_gcc",
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "gcc"
+    },
+    ["tool_target_open-app_cross_risc-v_cc"] = {
+        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
+        toolchain_info = {
+            plat = "cross",
+            name = "ZCrisc-v_gcc",
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "gcc"
+    },
+    ["tool_target_opencore-amr-0.1.6_cross_risc-v_ar"] = {
+        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
+        toolchain_info = {
+            plat = "cross",
+            name = "ZCrisc-v_gcc",
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "ar"
+    },
+    ["tool_target_utilities_cross_risc-v_ar"] = {
+        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
+        toolchain_info = {
+            plat = "cross",
+            name = "ZCrisc-v_gcc",
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "ar"
+    },
+    ["tool_target_mbedtls_cross_risc-v_ar"] = {
+        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
+        toolchain_info = {
+            plat = "cross",
+            name = "ZCrisc-v_gcc",
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "ar"
+    },
+    ["tool_target_open-fs_cross_risc-v_cc"] = {
+        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
+        toolchain_info = {
+            plat = "cross",
+            name = "ZCrisc-v_gcc",
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "gcc"
+    },
+    ["tool_target_open-net_cross_risc-v_cc"] = {
+        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
+        toolchain_info = {
+            plat = "cross",
+            name = "ZCrisc-v_gcc",
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "gcc"
+    },
+    ["tool_target_drv-oc_cross_risc-v_ar"] = {
+        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ar",
+        toolchain_info = {
+            plat = "cross",
+            name = "ZCrisc-v_gcc",
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "ar"
+    },
+    ["tool_target_open-config_cross_risc-v_cc"] = {
+        program = "/home/alvin/work/c_c++/projet/platform/vendor/lm620sdk/tools/ict-build/ZCnuclei/linux/bin/riscv64-unknown-elf-ict-gcc",
+        toolchain_info = {
+            plat = "cross",
+            name = "ZCrisc-v_gcc",
+            cachekey = "ZCrisc-v_gcc_arch_risc-v_plat_cross",
+            arch = "risc-v"
+        },
+        toolname = "gcc"
     }
 }

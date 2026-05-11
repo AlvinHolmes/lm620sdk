@@ -10,18 +10,18 @@
 -----------------------------------------------------------------------
 -- Include subdirs
 -----------------------------------------------------------------------
-includes("driver")
+-- includes("driver")
 --includes("app")
-includes("interface")
+-- includes("interface")
 
 -----------------------------------------------------------------------
 -- Export global macro
 -----------------------------------------------------------------------
-add_global_define("ZLOG_DEBUG")
-add_global_define("ZLOG_COLOR")
+-- add_global_define("ZLOG_DEBUG")
+-- add_global_define("ZLOG_COLOR")
 --add_global_define("ZLOG_TO_SLOG")
 
 -----------------------------------------------------------------------
 -- Export global include directory
 -----------------------------------------------------------------------
-add_global_includedirs("include")
+-- add_global_includedirs("include")

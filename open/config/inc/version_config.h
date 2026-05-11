@@ -31,7 +31,7 @@
 /*
  *  Build software version
  */
-#define BUILD_VERSION           "20260502231141"
+#define BUILD_VERSION           "Git:f6e7059fd3669842bd73851542d6a083"
 
 #endif  /* _VERSION_CONFIG_H_ */
 

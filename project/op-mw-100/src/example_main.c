@@ -11,9 +11,8 @@
 * 日期           作者               修改内容
 * 2023-07-31   ICT Team        创建
 ************************************************************************************/
-int app_entry(void);
-
 __attribute__((weak)) int main(void)
 {
-	return app_entry();
+	return 0;
 }
+
